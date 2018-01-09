@@ -171,17 +171,6 @@ nav img {
     padding-right: 12px;
 }
 
-.nav_selection {
-    height: 165px;
-}
-
-.nav_selection li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    list-style: none;
-}
-
 nav li:hover {
     background-color: #15a4fa;
 }
@@ -189,28 +178,6 @@ nav li:hover {
 nav a:hover {
     color: #ffffff;
 }
-
-.nav_history {
-    color: #4f5a6f;
-    font-size: 11px;
-    padding-top: 30px;
-    padding-left: 0px;
-}
-
-.nav_history img {
-    clear: both;
-    float: left;
-    transform: scale(1.2);
-}
-
-.nav_history div {
-    padding-left: 20px;
-}
-
-nav span {
-    color: #677b92;
-}
-
 
 /*-------------------SECTION (Desine puse)----------------------------------------------*/
 
