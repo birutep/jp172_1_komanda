@@ -97,7 +97,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #78829d;
+    color:inherit;
 }
 
 .nav_separator {
@@ -145,9 +145,6 @@ nav img {
 
 nav li:hover {
     background-color: #15a4fa;
-}
-
-nav a:hover {
     color: #ffffff;
 }
 
@@ -327,7 +324,7 @@ section {
 }
 
 .books_rating-0 {
-    background-position: 0 0;
+    background-position: 0;
 }
 
 .books_rating-5 {
