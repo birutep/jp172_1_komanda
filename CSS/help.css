@@ -1,0 +1,39 @@
+main {
+    background-color: gainsboro;
+}
+
+.books_help {
+    margin: auto;
+    background-color: whitesmoke;
+    color: #113063;
+    overflow: hidden;
+}
+
+.books_help h1,
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+div hr {
+    height: 1px;
+    border-width: 0;
+    background-color: #113063;
+    width: 95%;
+
+}
+
+.books_help .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 34% 34% 34%;
+    grid-gap: 2px;
+}
+
+.books_help .box1 {
+    background-color: gainsboro;
+    padding: 20px;
+    text-align: center;
+}
