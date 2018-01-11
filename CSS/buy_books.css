@@ -1,0 +1,201 @@
+/*.......BUY_BOOKS      .........*/
+
+.buy_books_grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 360px;
+    grid-gap: 15px;
+
+    /*BENDRAI!!!!!!!!! pakišti prie bendro teksto nustatymus*/
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.buy_books_box {
+    padding: 15px;
+}
+
+.buy_books_box_book_img{
+   width: 200px;
+    height: auto;
+    border-radius: 6px;
+    float:left; 
+}
+
+.buy_books_box_book_about{
+    height: 100%;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.buy_books_box_book_amount{
+    height: 100%;
+    width: 10%;
+    background-color: red;
+    float: left;
+}
+
+.buy_books_box_book_price{
+    height: 100%;
+    width: 10%;
+    background-color: blueviolet;
+    float: right;
+}
+
+
+
+
+
+
+
+
+.buy_books_box_book_summary{
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: 0;
+    color: #6f7d95;
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+.buy_books_box_about_book{
+    height: 100%;
+    float:right;
+}
+
+.buy_books_box_about_book img {
+    width: auto;
+    height: 100%;
+    border-radius: 6px;
+    float:left;
+
+/*    background-size: contain;*/
+}
+
+.buy_books_box_about_book h3 {
+    padding-top: 13px;
+    margin: 0;
+    color: #444c63;
+}
+
+.buy_books_box_about_book p {
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: 0;
+    color: #6f7d95;
+}
+
+
+
+
+/*
+.books_box {
+    background-color: white;
+}
+
+.books img {
+    width: 100%;
+    height: 76%;
+    background-size: contain;
+    border-radius: 6px;
+}
+
+.books h3 {
+    padding-top: 13px;
+    margin: 0;
+    color: #444c63;
+    bp:parinkta su color droperiu ir color pickeriu
+}
+
+.books p {
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: 0;
+    color: #6f7d95;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..............BOOKS..............*/
+
+/*
+.books {
+    width: 100%;
+    height: 780px;
+    background-color: white;
+}
+*/
+
+/*bp: pagrindinis konteiners*/
+
+/*
+.books_area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+*/
+
+/*
+.books_scrollbar {
+    overflow-y: scroll;
+    max-height: 730px;
+}
+*/
+
+/*
+#books_scrollbar-style::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+*/
+
+/*
+#books_scrollbar-style::-webkit-scrollbar-thumb {
+    background-color: #ccd5e4;
+    border-radius: 4px;
+}
+
+.books_scroll-barstyle::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+*/
+
+/*bp: 1 knygos erdve*/

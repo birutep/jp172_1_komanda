@@ -6,6 +6,7 @@
     <meta name="author" content="Juda Labiau" />
     <link rel="stylesheet" href="../CSS/normalize.css">
     <link rel="stylesheet" href="../CSS/style_index.css">
+    <link rel="stylesheet" href="../CSS/buy_books.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MyBookApp</title>
 </head>
@@ -13,22 +14,17 @@
 <body>
     <main>
         <header>
-            <div class="bubbles">
-                <div class="red_bubble"></div>
-                <div class="yellow_bubble"></div>
-                <div class="green_bubble"></div>
+            <div class="bookStore">
+                <p><i class="fa fa-book"></i>Book Store</p>
             </div>
+
             <div class="right">
-                <div class="myBookApp">
-                    <p><i class="fa fa-book"></i>MyBookApp</p>
-                </div>
                 <div class="help_support">
-                    <p><a href="help.html">Help Center</a></p>
-                    <p><a href="support_contact.html">Our Support</a></p>
+                    <p><a href="HTML/help.html">Help Center</a></p>
+                    <p><a href="HTML/support_contact.html">Our Support</a></p>
                 </div>
                 <div class="login">
-                    <img src="../img/header_johnDoe.png" alt="John Doe">
-                    <a href="login.html"><p>John Doe</p></a>
+                    <p> <a href="HTML/login.html">Login</a></p>
                     <p><i class="fa fa-check-circle"></i></p>
                 </div>
             </div>
@@ -45,14 +41,69 @@
         </nav>
         <section>
             <div class="bookFilter">
-                
+
             </div>
             <div class="books">
-    
+                <div class="books_area">
+
+                    <div class="buy_books_grid_container books_scrollbar" id="books_scrollbar-style">
+                        <div class="buy_books_box">
+                            <div class="buy_books_box_book_img">
+                                <img src="../IMG/books_book_01.jpg" alt="book">
+                            </div>
+                            <div class="buy_books_box_book_about">
+                                <h3>Book name</h3>
+                                <p>by Author Name</p>
+                                <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="buy_books_box_book_amount">
+                                Kiekis
+                            </div>
+                            <div class="buy_books_box_book_price">
+                                kaina
+                            </div>
+                        </div>
+                        
+                        <div class="buy_books_box">
+                            <div class="buy_books_box_book_img">
+                                <img src="../IMG/books_book_06.jpg" alt="book">
+                            </div>
+                            <div class="buy_books_box_book_about">
+                                <h3>Book name</h3>
+                                <p>by Author Name</p>
+                                <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="buy_books_box_book_amount">
+                                Kiekis
+                            </div>
+                            <div class="buy_books_box_book_price">
+                                kaina
+                            </div>
+                        </div>
+                        
+                        <div class="buy_books_box">
+                            <div class="buy_books_box_book_img">
+                                <img src="../IMG/books_book_01.jpg" alt="book">
+                            </div>
+                            <div class="buy_books_box_book_about">
+                                <h3>Book name</h3>
+                                <p>by Author Name</p>
+                                <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="buy_books_box_book_amount">
+                                Kiekis
+                            </div>
+                            <div class="buy_books_box_book_price">
+                                kaina
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
         </section>
         <footer>
-            <div class="help"><a href="help.html"><i class="fa fa-question-circle"></i></a></div>
+            <div class="help"><a href="HTML/help.html"><i class="fa fa-question-circle"></i></a></div>
             <div class="settings"><i class="fa fa-cog fa-fw"></i></div>
         </footer>
     </main>
