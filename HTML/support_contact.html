@@ -6,7 +6,9 @@
     <meta name="author" content="Juda Labiau" />
     <link rel="stylesheet" href="../CSS/normalize.css">
     <link rel="stylesheet" href="../CSS/style_index.css">
+    <link rel="stylesheet" href="../CSS/support_contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <title>MyBookApp</title>
 </head>
 
@@ -28,7 +30,9 @@
                 </div>
                 <div class="login">
                     <img src="../img/header_johnDoe.png" alt="John Doe">
-                    <a href="login.html"><p>John Doe</p></a>
+                    <a href="login.html">
+                        <p>John Doe</p>
+                    </a>
                     <p><i class="fa fa-check-circle"></i></p>
                 </div>
             </div>
@@ -47,8 +51,44 @@
             <div class="bookFilter">
                 
             </div>
-            <div class="books">
-    
+            <div class="books_support_contact">
+
+                <h1>My Book App</h1>
+                <hr/>
+                <h2>Contacts</h2>
+                <hr/>
+
+                <div class="contact container">
+                    <form action="">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                              <option value="lithuania">Lithuania</option>
+                                <option value="lettland">Lettland</option>
+                              <option value="polen">Polen</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+                
+               <address>
+                   DreamTeam <br/>
+Department of Energy and Mechatronics<br/>
+Phone. +370 5 233322, + 370 656 233322<br/>
+Written by <a href="mailto:dreamteam@vtvpmc.vilnius.lm.lt">Dream Team.</a><br> 
+Kalvarijų g. 159, Vilnius | 204 room
+               </address>
+                
             </div>
         </section>
         <footer>
@@ -57,6 +97,7 @@
         </footer>
     </main>
 
+    <script src="../JS/support_contact.js"></script>
 </body>
 
 </html>
