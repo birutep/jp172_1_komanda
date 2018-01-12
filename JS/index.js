@@ -75,7 +75,7 @@ var books =[
         2010,
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "005",
-        9.52,
+        0,
         "IMG/books_book_05.jpg",
         4.5,
         100,
@@ -97,7 +97,7 @@ var books =[
         2016,
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "007",
-        9.52,
+        0,
         "IMG/books_book_07.jpg",
         5.0,
         100,
@@ -108,7 +108,7 @@ var books =[
         1997,
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "008",
-        9.52,
+        0,
         "IMG/books_book_08.jpg",
         4.0,
         100,
@@ -149,7 +149,38 @@ function showAll(){
         bookDisplayArea.innerHTML+=getBookDiv(books[x]);
     }
 }
-
+//parodo tik tas knygas kurios yra nemokamos
+function showFree(){
+    bookDisplayArea.innerHTML="";
+    for(x in books){
+        if(books[x].price==0){
+            bookDisplayArea.innerHTML+=getBookDiv(books[x]);
+        }
+    }
+}
+//parodo tik tas kuriu reitingas yra 5, galima padaryti su books.sort() perduot comparatoriu kad lygintu pagal reitinga
+//ir isvest pagal populiaruma, bet tada masyve pasikeistu ziurint most recent kur isvedam paskutines 10 knygu masyve
+//galima butu daryt kopija ir ja rusiuot, bet kam to reikia ir kiek tai kainuos resursu?
+function showPopular(){
+    bookDisplayArea.innerHTML="";
+    for(x in books){
+        if(books[x].rating==5){
+            bookDisplayArea.innerHTML+=getBookDiv(books[x]);
+        }
+    }
+}
+//parodo 10 paskutiniu knygu masyve, ty naujausiai idetu jei maziau nei 10 pardej tai parodo visas
+function showRecent(){
+    var atvaizduota = 0;
+    bookDisplayArea.innerHTML="";
+    for(var i = books.length-1; i>=0; i-- ){
+        bookDisplayArea.innerHTML+=getBookDiv(books[i]);
+        atvaizduota++;
+        if(atvaizduota==10){
+            return;            
+        }
+    }
+}
 //kad uzkrautu visas knygas kai uzsikrauna tinklapis, ja daar kabint and daniel dalies mygtuko all books
 //perasyt analogiuskas funkcijas, tik kurios ziuretu pagal filtrus ir isvestu tik filtrus atitinkaancias
 document.body.onload=showAll();
