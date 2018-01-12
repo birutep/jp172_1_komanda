@@ -41,67 +41,82 @@
         </nav>
         <section>
             <div class="bookFilter">
-
-            </div>
-            <div class="books">
-                <div class="books_area">
-
-                    <div class="buy_books_grid_container books_scrollbar" id="books_scrollbar-style">
-                        <div class="buy_books_box">
-                            <div class="buy_books_box_book_img">
-                                <img src="../IMG/books_book_01.jpg" alt="book">
-                            </div>
-                            <div class="buy_books_box_book_about">
-                                <h3>Book name</h3>
-                                <p>by Author Name</p>
-                                <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </div>
-                            <div class="buy_books_box_book_amount">
-                                Kiekis
-                            </div>
-                            <div class="buy_books_box_book_price">
-                                kaina
-                            </div>
-                        </div>
-                        
-                        <div class="buy_books_box">
-                            <div class="buy_books_box_book_img">
-                                <img src="../IMG/books_book_06.jpg" alt="book">
-                            </div>
-                            <div class="buy_books_box_book_about">
-                                <h3>Book name</h3>
-                                <p>by Author Name</p>
-                                <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </div>
-                            <div class="buy_books_box_book_amount">
-                                Kiekis
-                            </div>
-                            <div class="buy_books_box_book_price">
-                                kaina
-                            </div>
-                        </div>
-                        
-                        <div class="buy_books_box">
-                            <div class="buy_books_box_book_img">
-                                <img src="../IMG/books_book_01.jpg" alt="book">
-                            </div>
-                            <div class="buy_books_box_book_about">
-                                <h3>Book name</h3>
-                                <p>by Author Name</p>
-                                <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </div>
-                            <div class="buy_books_box_book_amount">
-                                Kiekis
-                            </div>
-                            <div class="buy_books_box_book_price">
-                                kaina
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
+                <p>Buy Books</p>
+                <p id="buy_books_total_price_area">Total price of your cart: <span id="buy_books_cart_value">500</span> &#8364;</p>
+                <input class="buy_books_amount_button_buy" type="button" value="Buy" onclick="buy_books_buy()">
             </div>
         </section>
+
+        <div class="books">
+            <div class="books_area">
+
+                <div class="buy_books_grid_container books_scrollbar" id="books_scrollbar-style">
+                    <div class="buy_books_box">
+                        <div class="buy_books_box_book_img">
+                            <img src="../IMG/books_book_01.jpg" alt="book">
+                        </div>
+                        <div class="buy_books_box_book_about">
+                            <h3>Book name</h3>
+                            <p>by Author Name</p>
+                            <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="buy_books_box_book_amount">
+                            <input class="buy_books_amount_button_change_amount" type="button" value="-" onclick="buy_books_amount_down()">
+
+                            <input type="text" class="buy_books_amount_input" placeholder="0" />
+
+                            <input class="buy_books_amount_button_change_amount" type="button" value="+" onclick="buy_books_amount_up()">
+                        </div>
+                        <div class="buy_books_box_book_price">
+                            <p>&#8364; per book: <span></span></p>
+                        </div>
+                    </div>
+
+                    <div class="buy_books_box">
+                        <div class="buy_books_box_book_img">
+                            <img src="../IMG/books_book_02.jpg" alt="book">
+                        </div>
+                        <div class="buy_books_box_book_about">
+                            <h3>Book name</h3>
+                            <p>by Author Name</p>
+                            <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="buy_books_box_book_amount">
+                            <input class="buy_books_amount_button_change_amount" type="button" value="-" onclick="buy_books_amount_down()">
+
+                            <input type="text" class="buy_books_amount_input" placeholder="0" />
+
+                            <input class="buy_books_amount_button_change_amount" type="button" value="+" onclick="buy_books_amount_up()">
+                        </div>
+                        <div class="buy_books_box_book_price">
+                            <p>&#8364; per book: <span></span></p>
+                        </div>
+                    </div>
+
+                    <div class="buy_books_box">
+                        <div class="buy_books_box_book_img">
+                            <img src="../IMG/books_book_03.jpg" alt="book">
+                        </div>
+                        <div class="buy_books_box_book_about">
+                            <h3>Book name</h3>
+                            <p>by Author Name</p>
+                            <p class="buy_books_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="buy_books_box_book_amount">
+                            <input class="buy_books_amount_button_change_amount" type="button" value="-" onclick="buy_books_amount_down()">
+
+                            <input type="text" class="buy_books_amount_input" placeholder="0" />
+
+                            <input class="buy_books_amount_button_change_amount" type="button" value="+" onclick="buy_books_amount_up()">
+                        </div>
+                        <div class="buy_books_box_book_price">
+                            <p>&#8364; per book: <span></span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <footer>
             <div class="help"><a href="HTML/help.html"><i class="fa fa-question-circle"></i></a></div>
             <div class="settings"><i class="fa fa-cog fa-fw"></i></div>
