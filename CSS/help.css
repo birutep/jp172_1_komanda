@@ -17,6 +17,13 @@ h2 {
     text-align: center;
 }
 
+.books_help h1,
+h2,
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #113063;
+}
+
 div hr {
     height: 1px;
     border-width: 0;
@@ -28,12 +35,12 @@ div hr {
 .books_help .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 34% 34% 34%;
-    grid-gap: 2px;
+    grid-template-rows: 30% 30% 30%;
+    grid-gap: 4px;
 }
 
 .books_help .box1 {
-    background-color: gainsboro;
+    background-color:  #eaeef2;
     padding: 20px;
     text-align: center;
 }
