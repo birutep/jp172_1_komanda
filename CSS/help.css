@@ -1,0 +1,46 @@
+main {
+    background-color: gainsboro;
+}
+
+.books_help {
+    margin: auto;
+    background-color: whitesmoke;
+    color: #113063;
+    overflow: hidden;
+}
+
+.books_help h1,
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.books_help h1,
+h2,
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #113063;
+}
+
+div hr {
+    height: 1px;
+    border-width: 0;
+    background-color: #113063;
+    width: 95%;
+
+}
+
+.books_help .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30% 30% 30%;
+    grid-gap: 4px;
+}
+
+.books_help .box1 {
+    background-color:  #eaeef2;
+    padding: 20px;
+    text-align: center;
+}
