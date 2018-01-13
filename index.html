@@ -6,29 +6,49 @@
     <meta name="author" content="Juda Labiau" />
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style_index.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MyBookApp</title>
 </head>
 
 <body>
     <main>
         <header>
-
-            <div class="bookStore">
+            <div class="header_bookStore">
                 <p><i class="fa fa-book"></i>Book Store</p>
             </div>
-
-            <div class="right">
-                <div class="help_support">
+            <div class="header_right">
+                <div class="header_help_support">
                     <p><a href="HTML/help.html">Help Center</a></p>
                     <p><a href="HTML/support_contact.html">Our Support</a></p>
                 </div>
-                <div class="login">
-                   <p> <a href="HTML/login.html">Login</a></p>
+                <!-- Login Button -->
+                <div class="header_login_btn">
+                    <p onclick="document.getElementById('login_popup').style.display='block'">Login</p>
                     <p><i class="fa fa-check-circle"></i></p>
                 </div>
+                <!-- Login Form -->
+                <div id="login_popup" class="header_popup">
+                    <div class="header_login_content">
+                        <form class="header_modal_content" action="/action_page.php">
+                            <span onclick="document.getElementById('login_popup').style.display='none'" class="header_login_close" title="Close Login Form">&times;</span>
+                            <div class="header_container">
+                                <h3><i class="fa fa-book"></i>Book Store</h3>
+                                <div class="header_form_bordered">
+                                    <h2>Login</h2>
+                                    <label><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
+                                    <button class="header_submit" type="submit">Login</button>
+                                    <label><input class="header_remember" type="checkbox" checked="checked">Remember me</label><br>
+                                    <hr>
+                                    <p class="header_reg"><a href="HTML/register.html">Register new account.</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            
         </header>
         <nav>
             <div class="nav_navigation">
@@ -55,7 +75,7 @@
             </div>
             <div class="books">
                 <div class="books_area">
-                    <div class="books_grid-container books_scrollbar" id="books_scrollbar-style">                        
+                    <div class="books_grid-container books_scrollbar" id="books_scrollbar-style">
                     </div>
                 </div>
             </div>
@@ -66,6 +86,7 @@
         </footer>
     </main>
     <script src="JS/index.js"></script>
+    <!--    <script src="JS/index.js"></script>-->
 </body>
 
 </html>
