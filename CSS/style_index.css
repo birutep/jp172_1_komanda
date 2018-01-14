@@ -157,7 +157,7 @@ section {
 
 /*.......BOOK FILTER.........*/
 
-.bookFilter {
+.book_filter {
     width: 100%;
     height: 120px;
     box-sizing: border-box;
@@ -166,14 +166,14 @@ section {
     background-color: #eaeef2;
 }
 
-.bookFilter p {
+.book_filter p {
     padding: 13px;
     color: #52617a;
     font-size: 17px;
     border-bottom: 1px solid #d5dee8;
 }
 
-.bookFilter a {
+.book_filter a {
     margin-left: 6px;
     margin-bottom: 18px;
     float: left;
@@ -185,25 +185,25 @@ section {
     font-size: 14px;
 }
 
-.bookFilter a:hover {
+.book_filter a:hover {
     background-color: #95a7c1;
     color: white;
     border-radius: 32px 32px 32px 32px;
 }
 
 /*
-.bookFilter a.active {
+.book_filter a.active {
     background-color: #95a7c1;
     color: white;
     border-radius: 32px 32px 32px 32px;
 }
 */
 
-.bookFilter .search-container {
+.book_filter .search_container {
     float: right;
 }
 
-.bookFilter input[type=text] {
+.book_filter input[type=text] {
     padding: 6px;
     width: 350px;
     border-radius: 16px 0px 0px 16px;
@@ -211,7 +211,7 @@ section {
     color: #95a7c1;
 }
 
-.bookFilter .search-container button {
+.book_filter .search_container button {
     float: right;
     padding: 6px 10px;
     margin-right: 16px;

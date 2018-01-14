@@ -8,35 +8,27 @@
     <link rel="stylesheet" href="../CSS/style_index.css">
     <link rel="stylesheet" href="../CSS/support_contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <title>MyBookApp</title>
 </head>
 
 <body>
     <main>
         <header>
-            <div class="bubbles">
-                <div class="red_bubble"></div>
-                <div class="yellow_bubble"></div>
-                <div class="green_bubble"></div>
+
+            <div class="bookStore">
+                <p><i class="fa fa-book"></i>Book Store</p>
             </div>
-            
-<!--
+
             <div class="right">
-                <div class="myBookApp">
-                    <i class="fa fa-book"></i><p>MyBookApp</p>
-                </div>
                 <div class="help_support">
-                    <p><a href="help.html">Help Center</a></p>
-                    <p><a href="#">Our Support</a></p>
+                    <p><a href="../HTML/help.html">Help Center</a></p>
+                    <p><a href="../HTML/support_contact.html">Our Support</a></p>
                 </div>
                 <div class="login">
-                    <a href="login.html"><p>Login</p>
-                    </a>
+                    <p> <a href="../HTML/login.html">Login</a></p>
                     <p><i class="fa fa-check-circle"></i></p>
                 </div>
             </div>
--->
 
         </header>
         <nav>
@@ -50,16 +42,15 @@
             </div>
         </nav>
         <section>
-            <div class="bookFilter">
+           <div class="book_filter">
                 <div>
-                    <p>Browse Available Books</p>
+                    <p>My Book App</p>
                 </div>
                 <div>
-                    <a class="active" href="#">All Books</a>
-                    <a href="#">Most Recent</a>
-                    <a href="#">Most Popular</a>
-                    <a href="#">Free Books</a>
-                    <div class="search-container">
+
+                    <a href="#">Contacts</a>
+                   
+                    <div class="search_container">
                         <form action="">
                             <input type="text" placeholder="Enter Keywords" name="keywoards">
                             <button type="submit"><i class="fa fa-search"></i></button>
@@ -70,11 +61,6 @@
             </div>
             <div class="books_support_contact">
 
-                <h1>My Book App</h1>
-                <hr/>
-                <h2>Contacts</h2>
-                <hr/>
-
                 <div class="contact container">
                     <form action="">
                         <label for="fname">First Name</label>
@@ -82,6 +68,9 @@
 
                         <label for="lname">Last Name</label>
                         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        
+                        <label for="email">e-mail:</label>
+                        <input type="text" id="email" name="email" placeholder="Your e-mail:">
 
                         <label for="country">Country</label>
                         <select id="country" name="country">
@@ -98,13 +87,9 @@
                     </form>
                 </div>
 
-                <address>
-                   DreamTeam <br/>
-Department of Energy and Mechatronics<br/>
-Phone. +370 5 233322, + 370 656 233322<br/>
-Written by <a href="mailto:dreamteam@vtvpmc.vilnius.lm.lt">Dream Team.</a><br> 
-Kalvarijų g. 159, Vilnius | 204 room
-               </address>
+                <p>
+                    DreamTeam <br/> Department of Energy and Mechatronics<br/> Phone. +370 5 233322, + 370 656 233322<br/> Written by <a href="mailto:dreamteam@vtvpmc.vilnius.lm.lt"><i>Dream Team.</i></a><br> Kalvarijų g. 159, Vilnius | 204 room
+                </p>
 
             </div>
         </section>
