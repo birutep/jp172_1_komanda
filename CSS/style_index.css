@@ -199,7 +199,7 @@ section {
 }
 */
 
-.book_filter .search-container {
+.book_filter .search_container {
     float: right;
 }
 
@@ -211,7 +211,7 @@ section {
     color: #95a7c1;
 }
 
-.book_filter .search-container button {
+.book_filter .search_container button {
     float: right;
     padding: 6px 10px;
     margin-right: 16px;
