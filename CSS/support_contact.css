@@ -1,3 +1,7 @@
+.book_filter p {
+  
+}
+
 .books_support_contact {
     margin: auto;
     overflow: hidden;
@@ -50,18 +54,18 @@ textarea {
     height: 80px;
 }
 
-.books_support_contact address {
+.books_support_contact p {
     margin: auto;
     padding: 40px 40px;
     font-size: 20px;
 }
 
-.books_support_contact address a {
+.books_support_contact p a {
     text-decoration: none;
     color: #7fdbcd;
 }
 
-.books_support_contact address a:hover {
+.books_support_contact p a:hover {
     color: #0ea38c;
 }
 
