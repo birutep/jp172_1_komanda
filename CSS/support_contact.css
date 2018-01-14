@@ -1,12 +1,3 @@
-.right {
-/*    margin-left: 600px;*/
-    width: 1200px;
-    display: inline-block;
-    float: left;
-}
-
-
-
 
 .books_support_contact {
     margin: auto;
@@ -17,7 +8,6 @@
 
 .books_support_contact h1,
 h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
     margin: auto;
     padding: 10px 20px;
 }
