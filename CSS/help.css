@@ -1,5 +1,5 @@
 main {
-    background-color: gainsboro;
+    background-color: whitesmoke;
 }
 
 .books_help {
@@ -11,7 +11,6 @@ main {
 
 .books_help h1,
 h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
     margin: auto;
     padding: 10px 20px;
     text-align: center;
@@ -20,19 +19,25 @@ h2 {
 .books_help h1,
 h2,
 h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #113063;
+}
+
+.book_filter a {
+    color: #52617a;
 }
 
 div hr {
     height: 1px;
     border-width: 0;
-    background-color: #113063;
-    width: 95%;
-
+    background-color: #d5dee8;
 }
 
-.books_help .grid-container {
+.books_help .grid_container {
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 30% 30% 30%;
@@ -40,7 +45,7 @@ div hr {
 }
 
 .books_help .box1 {
-    background-color:  #eaeef2;
+    background-color: #eaeef2;
     padding: 20px;
     text-align: center;
 }
