@@ -1,5 +1,4 @@
 .book_filter p {
-  
 }
 
 .books_support_contact {
@@ -62,11 +61,11 @@ textarea {
 
 .books_support_contact p a {
     text-decoration: none;
-    color: #7fdbcd;
+    color: #113063;
 }
 
 .books_support_contact p a:hover {
-    color: #0ea38c;
+    color: #01173d;
 }
 
 div hr {
