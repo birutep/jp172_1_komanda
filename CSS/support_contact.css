@@ -2,7 +2,9 @@ main {
     background-color: whitesmoke;
 }
 
-.book_filter p {}
+.book_filter a {
+    color: #52617a;
+}
 
 .books_support_contact {
     margin: auto;
