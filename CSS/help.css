@@ -1,0 +1,51 @@
+main {
+    background-color: whitesmoke;
+}
+
+.books_help {
+    margin: auto;
+    background-color: whitesmoke;
+    color: #113063;
+    overflow: hidden;
+}
+
+.books_help h1,
+h2 {
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.books_help h1,
+h2,
+h3 {
+    color: #113063;
+}
+
+.book_filter a {
+    color: #52617a;
+}
+
+div hr {
+    height: 1px;
+    border-width: 0;
+    background-color: #d5dee8;
+}
+
+.books_help .grid_container {
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30% 30% 30%;
+    grid-gap: 4px;
+}
+
+.books_help .box1 {
+    background-color: #eaeef2;
+    padding: 20px;
+    text-align: center;
+}

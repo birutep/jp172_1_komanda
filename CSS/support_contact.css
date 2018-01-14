@@ -1,23 +1,27 @@
+main {
+    background-color: whitesmoke;
+}
+
+.book_filter a {
+    color: #52617a;
+}
+
 .books_support_contact {
     margin: auto;
+    overflow: hidden;
     background-color: whitesmoke;
     color: #113063;
     overflow: hidden;
 }
 
-.books_support_contact h1,
-h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin: auto;
-    padding: 10px 20px;
-}
-
 
 .books_support_contact .contact {
+    overflow: hidden;
     width: 600px;
-    height: 350px;
+    height: 703px;
     float: right;
     background-color: whitesmoke;
+    font-family: Arial;
 }
 
 .books_support_contact input[type=text],
@@ -48,7 +52,7 @@ textarea {
 
 .books_support_contact .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
     padding: 20px;
 }
 
@@ -56,25 +60,18 @@ textarea {
     height: 80px;
 }
 
-.books_support_contact address {
+.books_support_contact p {
     margin: auto;
     padding: 40px 40px;
     font-size: 20px;
 }
 
-.books_support_contact address a {
+.books_support_contact p a {
     text-decoration: none;
-    color: #7fdbcd;
+    color: #113063;
 }
 
-.books_support_contact address a:hover {
-    color: #0ea38c;
+.books_support_contact p a:hover {
+    color: #01173d;
 }
 
-.books_support_contact hr {
-    height: 1px;
-    border-width: 0;
-    background-color: #113063;
-    width: 95%;
-    
-}

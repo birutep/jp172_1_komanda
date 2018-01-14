@@ -13,64 +13,23 @@
 <body>
     <main>
         <header>
-            <div class="header_bookStore">
-                <p><i class="fa fa-book"></i><a href="../index.html">Book Store</a></p>
+            <div class="bubbles">
+                <div class="red_bubble"></div>
+                <div class="yellow_bubble"></div>
+                <div class="green_bubble"></div>
             </div>
-            <div class="header_right">
-                <div class="header_help_support">
-                    <p><a href="HTML/help.html">Help Center</a></p>
-                    <p><a href="HTML/support_contact.html">Our Support</a></p>
+            <div class="right">
+                <div class="myBookApp">
+                    <p><i class="fa fa-book"></i>MyBookApp</p>
                 </div>
-                <!-- Login Button -->
-                <div class="header_login_btn">
-                    <p onclick="show_login()">Login</p>
+                <div class="help_support">
+                    <p><a href="help.html">Help Center</a></p>
+                    <p><a href="support_contact.html">Our Support</a></p>
+                </div>
+                <div class="login">
+                    <img src="../img/header_johnDoe.png" alt="John Doe">
+                    <a href="login.html"><p>John Doe</p></a>
                     <p><i class="fa fa-check-circle"></i></p>
-                </div>
-                <!-- Login Form -->
-                <div id="login_popup" class="header_popup">
-                    <div class="header_login_content">
-                        <form class="header_modal_content" action="/action_page.php">
-                            <span onclick="close_login();" class="header_login_close" title="Close Login Form">&times;</span>
-                            <div class="header_container">
-                                <h3><i class="fa fa-book"></i>Book Store</h3>
-                                <div class="header_form_bordered">
-                                    <h2>Login</h2>
-                                    <label><b>Username</b></label>
-                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
-                                    <label><b>Password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
-                                    <button class="header_submit" type="submit">Login</button>
-                                    <label><input class="header_remember" type="checkbox" checked="checked">Remember me</label><br>
-                                    <hr>
-                                    <p class="header_reg" onclick="show_reg();close_login();">Register new account.</p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- Registration Form -->
-                <div id="reg_popup" class="header_reg_popup">
-                    <div class="header_reg_content">
-                        <form class="header_modal_reg_content" action="/action_page.php">
-                            <span onclick="close_reg()" class="header_reg_close" title="Close Registration Form">&times;</span>
-                            <div class="header_reg_container">
-                                <h3><i class="fa fa-book"></i>Book Store</h3>
-                                <div class="header_reg_form_bordered">
-                                    <h2>Register new account</h2>
-                                    <label><b>Your name</b></label>
-                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
-                                    <label><b>Email</b></label>
-                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
-                                    <label><b>Password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
-                                    <label><b>Re-enter password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
-                                    <button class="header_reg_submit" type="submit">Create new account</button>
-                                    <p>Already have an account? <span class="header_reg_to_login" onclick="close_reg();show_login();">Login here.</span></p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
                 </div>
             </div>
         </header>
@@ -106,7 +65,7 @@
             <div class="settings"><i class="fa fa-cog fa-fw"></i></div>
         </footer>
     </main>
-    <script src="../JS/login_reg.js"></script>
+
 </body>
 
 </html>

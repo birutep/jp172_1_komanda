@@ -1,4 +1,4 @@
-/*------------------BENDA DALIS--------------------------------------------------------*/
+/*------------------BENDRA DALIS--------------------------------------------------------*/
 
 main {
     width: 1320px;
@@ -26,7 +26,7 @@ header a {
     margin: auto;
 }
 
-.header_bookStore {
+.bookStore {
     margin: auto;
     width: 100px;
     text-align: center;
@@ -39,237 +39,47 @@ header a {
     padding-right: 5px;
 }
 
-.header_right {
+.right {
     width: 300px;
     display: flex;
     justify-content: flex-end;
 }
 
-.header_help_support {
+.help_support {
     display: flex;
     align-content: flex-end;
     color: #c3c8db;
 }
 
-.header_help_support a {
+.help_support a {
     color: #c3c8db;
 }
 
-.header_right p {
+.right p {
     margin: auto;
     margin-right: 0px;
     margin-left: 10px;
 }
 
-.header_help_support p:first-child::before {
+.help_support p:first-child::before {
     content: "●";
     color: #1f2637;
     padding-right: 10px;
 }
 
-.header_login_btn {
+.login {
     width: 100px;
     display: flex;
     align-content: flex-end;
     justify-content: center;
     color: #ffffff;
-    cursor: pointer;
 }
 
-.header_login_btn:hover {
-    opacity: 0.8;
-}
-
-.header_login_btn a:first-child {
+.login a:first-child {
     width: auto;
     text-align: right;
     color: #ffffff;
 }
-
-
-/*-------------------LOGIN----------------------------------------------*/
-
-.header_popup {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #444c63;
-}
-
-.header_modal_content {
-    position: relative;
-    background-color: #fefefe;
-    margin: 7% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 30%;
-    height: 400px;
-}
-
-.header_form_bordered {
-    margin: auto;
-    width: 70%;
-    padding: 20px;
-    padding-top: 0;
-    border: silver solid 1px;
-    border-radius: 5px;
-}
-
-.header_container h3 {
-    margin: auto;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-}
-
-.header_container h2 {
-    padding-bottom: 10px;
-}
-
-.header_container input,
-.header_submit {
-    width: 100%;
-    padding: 5px 5px;
-    margin: 5px 0 15px 0;
-    display: inline-block;
-    border: 1px solid #888;
-    border-radius: 2px;
-    box-sizing: border-box;
-}
-
-.header_modal_content button,
-.header_modal_content label,
-.header_reg a {
-    color: #2f364a;
-}
-
-.header_container .header_remember {
-    margin: 0;
-    width: 20px;
-    display: inline;
-    margin-bottom: 20px;
-}
-
-.header_login_close {
-    color: #444c63;
-    font-size: 20px;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-}
-
-.header_login_close:hover,
-.header_login_close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-button:hover,
-.header_reg:hover {
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-
-
-/*-------------------REGISTRATION----------------------------------------------*/
-
-.header_reg_popup {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #444c63;
-}
-
-.header_reg_content {
-    position: relative;
-    background-color: #fefefe;
-    margin: 7% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 40%;
-    height: 500px;
-}
-
-.header_reg_form_bordered {
-    margin: auto;
-    width: 70%;
-    padding: 20px;
-    padding-top: 0;
-    border: silver solid 1px;
-    border-radius: 5px;
-}
-
-.header_reg_container h3 {
-    margin: auto;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-}
-
-.header_reg_container h2 {
-    padding-bottom: 10px;
-}
-
-.header_reg_container input,
-.header_reg_submit {
-    width: 100%;
-    padding: 5px 5px;
-    margin: 5px 0 15px 0;
-    display: inline-block;
-    border: 1px solid #888;
-    border-radius: 2px;
-    box-sizing: border-box;
-}
-
-.header_reg_modal_content button,
-.header_modal_reg_content label {
-    color: #2f364a;
-}
-
-.header_reg_container {
-    margin: 0;
-    width: 20px;
-    display: inline;
-    margin-bottom: 20px;
-}
-
-.header_reg_close {
-    color: #444c63;
-    font-size: 20px;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-}
-
-.header_reg_close:hover,
-.header_reg_close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-button:hover,
-.header_reg_to_login:hover {
-    opacity: 0.8;
-    cursor: pointer;
-}
-
 
 
 
@@ -347,7 +157,7 @@ section {
 
 /*.......BOOK FILTER.........*/
 
-.bookFilter {
+.book_filter {
     width: 100%;
     height: 120px;
     box-sizing: border-box;
@@ -356,14 +166,14 @@ section {
     background-color: #eaeef2;
 }
 
-.bookFilter p {
+.book_filter p {
     padding: 13px;
     color: #52617a;
     font-size: 17px;
     border-bottom: 1px solid #d5dee8;
 }
 
-.bookFilter a {
+.book_filter a {
     margin-left: 6px;
     margin-bottom: 18px;
     float: left;
@@ -375,51 +185,43 @@ section {
     font-size: 14px;
 }
 
-.bookFilter a:hover {
+.book_filter a:hover {
     background-color: #95a7c1;
     color: white;
     border-radius: 32px 32px 32px 32px;
 }
 
 /*
-.bookFilter a.active {
+.book_filter a.active {
     background-color: #95a7c1;
     color: white;
     border-radius: 32px 32px 32px 32px;
 }
 */
 
-.bookFilter input[type=text] {
-    width: 230px;
+.book_filter .search_container {
     float: right;
-    padding: 5px;
-    margin-right: 6px;
-    border-radius: 12px;
-    border: 1px solid #c7cfd8;
-    font-family: Arial;
-    font-size: 14px;
-    color: #95a7c1;
-    background-image: url(../IMG/if_icon-111-search_314478.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
 }
 
-/*
-@media screen and (max-width: 600px) {
-    .bookFilter a, .bookFilter input[type=text] {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-    .bookFilter input[type=text] {
-        border: 1px solid #ccc;
-    }
+.book_filter input[type=text] {
+    padding: 6px;
+    width: 350px;
+    border-radius: 16px 0px 0px 16px;
+    border: none;
+    color: #95a7c1;
 }
-*/
+
+.book_filter .search_container button {
+    float: right;
+    padding: 6px 10px;
+    margin-right: 16px;
+    border-radius: 0px 16px 16px 0px;
+   border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #95a7c1;
+}
+
 
 /*.......BOOKS      .........*/
 
