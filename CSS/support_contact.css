@@ -1,15 +1,9 @@
-
 .books_support_contact {
     margin: auto;
+    overflow: hidden;
     background-color: whitesmoke;
     color: #113063;
     overflow: hidden;
-}
-
-.books_support_contact h1,
-h2 {
-    margin: auto;
-    padding: 10px 20px;
 }
 
 
