@@ -20,8 +20,8 @@
 
             <div class="right">
                 <div class="help_support">
-                    <p><a href="HTML/help.html">Help Center</a></p>
-                    <p><a href="HTML/support_contact.html">Our Support</a></p>
+                    <p><a href="../HTML/help.html">Help Center</a></p>
+                    <p><a href="../HTML/support_contact.html">Our Support</a></p>
                 </div>
                 <div class="login">
                     <p> <a href="HTML/login.html">Login</a></p>
@@ -40,17 +40,17 @@
             </div>
         </nav>
         <section>
-            <div class="bookFilter">
+            <div class="book_filter">
                 <p>Buy Books</p>
                 <p id="buy_books_total_price_area">Total price of your cart: <span id="buy_books_cart_value">500</span> &#8364;</p>
-                <input class="buy_books_amount_button_buy" type="button" value="Buy" onclick="buy_books_buy()">
+                <input class="buy_books_button_buy" type="button" value="Buy" onclick="buy_books_buy()">
             </div>
         </section>
 
         <div class="books">
             <div class="books_area">
 
-                <div class="buy_books_grid_container books_scrollbar" id="books_scrollbar-style">
+                <div class="buy_books_grid_container books_scrollbar" id="books_scrollbar_style">
                     <div class="buy_books_box">
                         <div class="buy_books_box_book_img">
                             <img src="../IMG/books_book_01.jpg" alt="book">
@@ -66,6 +66,9 @@
                             <input type="text" class="buy_books_amount_input" placeholder="0" />
 
                             <input class="buy_books_amount_button_change_amount" type="button" value="+" onclick="buy_books_amount_up()">
+
+                            <img class="buy_books_box_book_amount_recyclebin" src="../IMG/buy_books_recyclebin.jpg" alt="recyclebin" onclick="buy_books_amount_remove()">
+
                         </div>
                         <div class="buy_books_box_book_price">
                             <p>&#8364; per book: <span></span></p>
@@ -87,6 +90,8 @@
                             <input type="text" class="buy_books_amount_input" placeholder="0" />
 
                             <input class="buy_books_amount_button_change_amount" type="button" value="+" onclick="buy_books_amount_up()">
+
+                            <img class="buy_books_box_book_amount_recyclebin" src="../IMG/buy_books_recyclebin.jpg" alt="recyclebin" onclick="buy_books_amount_remove()">
                         </div>
                         <div class="buy_books_box_book_price">
                             <p>&#8364; per book: <span></span></p>
@@ -108,6 +113,8 @@
                             <input type="text" class="buy_books_amount_input" placeholder="0" />
 
                             <input class="buy_books_amount_button_change_amount" type="button" value="+" onclick="buy_books_amount_up()">
+                            
+                                <img class="buy_books_box_book_amount_recyclebin" src="../IMG/buy_books_recyclebin.jpg" alt="recyclebin" onclick="buy_books_amount_remove()">
                         </div>
                         <div class="buy_books_box_book_price">
                             <p>&#8364; per book: <span></span></p>

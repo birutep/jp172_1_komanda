@@ -246,7 +246,7 @@ section {
 
 /*BP!!!!!!!!! PAZIURETI, kokie tiksliai tarpai tarp grido*/
 
-.books_grid-container {
+.books_grid_container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 360px;
@@ -262,18 +262,18 @@ section {
     max-height: 730px;
 }
 
-#books_scrollbar-style::-webkit-scrollbar {
+#books_scrollbar_style::-webkit-scrollbar {
     width: 10px;
     background-color: #ffffff;
 }
 
-#books_scrollbar-style::-webkit-scrollbar-thumb {
+#books_scrollbar_style::-webkit-scrollbar-thumb {
     /*bp:parinkta su color droperiu ir color pickeriu*/
     background-color: #ccd5e4;
     border-radius: 4px;
 }
 
-.books_scroll-barstyle::-webkit-scrollbar-track {
+.books_scrollbar_style::-webkit-scrollbar-track {
     background-color: #ffffff;
 }
 
@@ -308,54 +308,54 @@ section {
 
 /*bp: rating skale*/
 
-.books_rating-static {
+.books_rating_static {
     width: 90px;
     height: 18px;
     display: block;
     background: url(../IMG/books_ratingStars.png);
 }
 
-.books_rating-0 {
+.books_rating_0 {
     background-position: 0;
 }
 
-.books_rating-5 {
+.books_rating_5 {
     background-position: 0 -18px;
 }
 
-.books_rating-10 {
+.books_rating_10 {
     background-position: 0 -36px;
 }
 
-.books_rating-15 {
+.books_rating_15 {
     background-position: 0 -54px;
 }
 
-.books_rating-20 {
+.books_rating_20 {
     background-position: 0 -72px;
 }
 
-.books_rating-25 {
+.books_rating_25 {
     background-position: 0 -90px;
 }
 
-.books_rating-30 {
+.books_rating_30 {
     background-position: 0 -108px;
 }
 
-.books_rating-35 {
+.books_rating_35 {
     background-position: 0 -126px;
 }
 
-.books_rating-40 {
+.books_rating_40 {
     background-position: 0 -144px;
 }
 
-.books_rating-45 {
+.books_rating_45 {
     background-position: 0 -162px;
 }
 
-.books_rating-50 {
+.books_rating_50 {
     background-position: 0 -180px;
 }
 

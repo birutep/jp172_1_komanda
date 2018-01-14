@@ -15,12 +15,7 @@
     padding: 15px;
 }
 
-.buy_books_box_book_img {
-    width: 200px;
-    height: auto;
-    border-radius: 6px;
-    float: left;
-}
+
 
 .buy_books_box_book_about {
     height: 100%;
@@ -63,13 +58,11 @@
     float: right;
 }
 
-.buy_books_box_about_book img {
-    width: auto;
-    height: 100%;
+.buy_books_box_book_img {
+    width: 200px;
+    height: auto;
     border-radius: 6px;
     float: left;
-
-    /*    background-size: contain;*/
 }
 
 .buy_books_box_about_book h3 {
@@ -133,11 +126,12 @@
     font-size: 14px;
 }
 
-.buy_books_amount_button_buy {
+.buy_books_button_buy {
     padding: 0;
     margin: 0;
     margin-left: 20px;
     margin-right: 5px;
+    margin-top: -10px;
     font-family: inherit;
     width: 50px;
     height: 40px;
@@ -149,3 +143,9 @@
     float: left;
 }
 
+.buy_books_box_book_amount_recyclebin {
+    max-width: 20px;
+    max-height: 20px;
+    padding-left: 43px;
+    padding-top: 10px;
+}
