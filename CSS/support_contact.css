@@ -1,5 +1,8 @@
-.book_filter p {
+main {
+    background-color: whitesmoke;
 }
+
+.book_filter p {}
 
 .books_support_contact {
     margin: auto;
@@ -11,10 +14,12 @@
 
 
 .books_support_contact .contact {
+    overflow: hidden;
     width: 600px;
-    height: 603px;
+    height: 703px;
     float: right;
     background-color: whitesmoke;
+    font-family: Arial;
 }
 
 .books_support_contact input[type=text],
@@ -45,7 +50,7 @@ textarea {
 
 .books_support_contact .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
     padding: 20px;
 }
 
@@ -68,10 +73,3 @@ textarea {
     color: #01173d;
 }
 
-div hr {
-    height: 1px;
-    border-width: 0;
-    background-color: #113063;
-    width: 95%;
-
-}
