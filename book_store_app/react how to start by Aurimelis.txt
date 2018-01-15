@@ -1,7 +1,10 @@
+-----------Atliekame tik pirma karta instaliuodami i savo pc------------------------------------------------
+
 Turim turet Node kompiuteryje, pasitikrinam terminale irase node -v
 parsisiuntimui https://nodejs.org/en/ instaliuojame next next...
 
 intaliuojame Create React App, terminale irasom npm install -g create-react-app
+----------Atliekame kaskart noredami pasileisti appsa------------------------------------------------------
 
 einam i book_store_app direktorija, joje atsidarome terminala,
  windose diskas pakeiciamas raide: pvz d: o toliau su cd ir tab,
