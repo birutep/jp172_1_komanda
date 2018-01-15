@@ -249,10 +249,27 @@ nav img {
     padding-right: 12px;
 }
 
-nav li:hover {
+.nav_buttons {
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    text-align: inherit;
+    padding-left: 20px;
+}
+
+.nav_buttons i {
+    padding-right: 10px;
+}
+
+.nav_buttons:hover {
     background-color: #15a4fa;
     color: #ffffff;
+    cursor: pointer;
 }
+
 
 /*-------------------SECTION (Desine puse)----------------------------------------------*/
 
