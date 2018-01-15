@@ -248,7 +248,7 @@ nav img {
 }
 
 .nav_buttons {
-    width: 100%;
+    width: 180px;
     height: 40px;
     display: block;
     background-color: inherit;
@@ -256,6 +256,7 @@ nav img {
     color: inherit;
     text-align: inherit;
     padding-left: 20px;
+    line-height: 40px;
 }
 
 .nav_buttons i {
@@ -494,7 +495,7 @@ footer {
 }
 
 footer i {
-    color: #ffff;
+    color: #ffffff;
 }
 
 .footer_help {
