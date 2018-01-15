@@ -6,8 +6,6 @@
     grid-auto-rows: 360px;
     grid-gap: 15px;
 
-    /*BENDRAI!!!!!!!!! pakišti prie bendro teksto nustatymus*/
-    font-family: Arial;
     font-size: 14px;
 }
 
@@ -15,12 +13,7 @@
     padding: 15px;
 }
 
-.buy_books_box_book_img {
-    width: 200px;
-    height: auto;
-    border-radius: 6px;
-    float: left;
-}
+
 
 .buy_books_box_book_about {
     height: 100%;
@@ -63,13 +56,11 @@
     float: right;
 }
 
-.buy_books_box_about_book img {
-    width: auto;
-    height: 100%;
+.buy_books_box_book_img {
+    width: 200px;
+    height: auto;
     border-radius: 6px;
     float: left;
-
-    /*    background-size: contain;*/
 }
 
 .buy_books_box_about_book h3 {
@@ -90,13 +81,11 @@
 
 .buy_books_amount_input {
     width: 30px;
-    font-family: inherit;
     font-size: 0.9em;
     text-align: right;
 }
 
 .buy_books_amount_input::placeholder {
-    font-family: 'Libre Franklin', sans-serif;
     font-size: 0.9em;
     text-align: right;
     padding-right: 2px;
@@ -105,7 +94,6 @@
 .buy_books_amount_button_change_amount {
     margin-left: 5px;
     margin-right: 5px;
-    font-family: inherit;
     width: 20px;
     height: 20px;
     padding: 2px;
@@ -124,7 +112,7 @@
 #buy_books_total_price_area {
     padding: 0;
     margin: 0;
-    margin-left: 750px;
+    margin-left: 710px;
     margin-bottom: 18px;
     float: left;
     color: #95a7c1;
@@ -133,13 +121,13 @@
     font-size: 14px;
 }
 
-.buy_books_amount_button_buy {
+.buy_books_button_buy {
     padding: 0;
     margin: 0;
     margin-left: 20px;
     margin-right: 5px;
-    font-family: inherit;
-    width: 50px;
+    margin-top: -10px;
+    width: 150px;
     height: 40px;
     padding: 2px;
     text-align: center;
@@ -149,3 +137,9 @@
     float: left;
 }
 
+.buy_books_box_book_amount_recyclebin {
+    max-width: 20px;
+    max-height: 20px;
+    padding-left: 43px;
+    padding-top: 10px;
+}

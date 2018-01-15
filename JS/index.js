@@ -1,4 +1,4 @@
-var bookDisplayArea = document.getElementById("books_scrollbar-style");
+var bookDisplayArea = document.getElementById("books_scrollbar_style");
 
 function Book(
     author,
@@ -139,7 +139,7 @@ var books =[
 
 //perduodi knyga, grazina diva tinklapiui browse books
 function getBookDiv(book){
-    return "<div class=\"books_box\"><img src="+book.img+" alt=\"book\"><h3>"+book.title+"</h3><p>by "+book.author+"</p><span class=\"books_rating-static books_rating-"+book.rating*10+"\"></span></div>";
+    return "<div class=\"books_box\"><img src="+book.img+" alt=\"book\"><h3>"+book.title+"</h3><p>by "+book.author+"</p><span class=\"books_rating_static books_rating_"+book.rating*10+"\"></span></div>";
 }
 
 //perbega per viska knygu masyva ir isveda visas knygas, browse books dalis

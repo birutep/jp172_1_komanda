@@ -14,23 +14,64 @@
 <body>
     <main>
         <header>
-            <div class="bubbles">
-                <div class="red_bubble"></div>
-                <div class="yellow_bubble"></div>
-                <div class="green_bubble"></div>
+            <div class="header_bookStore">
+                <p><i class="fa fa-book"></i><a href="../index.html">Book Store</a></p>
             </div>
-            <div class="right">
-                <div class="myBookApp">
-                    <p><i class="fa fa-book"></i>MyBookApp</p>
+            <div class="header_right">
+                <div class="header_help_support">
+                    <p><a href="HTML/help.html">Help Center</a></p>
+                    <p><a href="HTML/support_contact.html">Our Support</a></p>
                 </div>
-                <div class="help_support">
-                    <p><a href="help.html">Help Center</a></p>
-                    <p><a href="support_contact.html">Our Support</a></p>
-                </div>
-                <div class="login">
-                    <img src="../img/header_johnDoe.png" alt="John Doe">
-                    <a href="login.html"><p>John Doe</p></a>
+                <!-- Login Button -->
+                <div class="header_login_btn">
+                    <p onclick="show_login()">Login</p>
                     <p><i class="fa fa-check-circle"></i></p>
+                </div>
+                <!-- Login Form -->
+                <div id="login_popup" class="header_popup">
+                    <div class="header_login_content">
+                        <form class="header_modal_content" action="">
+                            <span onclick="close_login();" class="header_login_close" title="Close Login Form">&times;</span>
+                            <div class="header_container">
+                                <h3><i class="fa fa-book"></i>Book Store</h3>
+                                <div class="header_form_bordered">
+                                    <h2>Login</h2>
+                                    <label><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
+                                    <button class="header_submit" type="submit">Login</button>
+                                    <label><input class="header_remember" type="checkbox" checked="checked">Remember me</label><br>
+                                    <hr>
+                                    <p class="header_reg" onclick="show_reg();close_login();">Register new account.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Registration Form -->
+                <div id="reg_popup" class="header_popup">
+                    <div class="header_reg_content">
+                        <form class="header_modal_content" action="">
+                            <span onclick="close_reg()" class="header_login_close" title="Close Registration Form">&times;</span>
+                            <div class="header_container">
+                                <h3><i class="fa fa-book"></i>Book Store</h3>
+                                <div class="header_form_bordered">
+                                    <h2>Register new account</h2>
+                                    <label><b>Your name</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Email</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Re-enter password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
+                                    <button class="header_submit" type="submit">Create new account</button>
+                                    <p>Already have an account? <span class="header_reg_to_login" onclick="close_reg();show_login();">Login here.</span></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </header>
@@ -43,8 +84,8 @@
             </div>
         </nav>
         <section>
-            <div class="bookFilter">
-                
+            <div class="book_filter">
+
             </div>
             <div class="books">
                 <div class="books_image">
@@ -54,20 +95,18 @@
                 <div class="books_description">
                     <h3>Book name</h3>
                     <p>by Author Name</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat quibusdam rerum unde amet, animi, optio vel delectus dolore, facilis quia distinctio beatae eligendi? Architecto, aspernatur sed quia dicta aperiam natus?
-                    Vel, delectus. Autem quos quibusdam reiciendis quaerat sed? Delectus possimus neque et in repellendus accusantium ipsa quae ipsam blanditiis ducimus enim tempore, doloremque quibusdam perferendis omnis numquam soluta nobis explicabo!
-                    Libero aut quia sunt dolores voluptate earum voluptatum, ullam facere, sint asperiores molestias. Veritatis fugiat quia, accusamus numquam, reprehenderit sint similique, laboriosam aliquid nihil impedit eligendi explicabo ipsam delectus ratione?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat quibusdam rerum unde amet, animi, optio vel delectus dolore, facilis quia distinctio beatae eligendi? Architecto, aspernatur sed quia dicta aperiam natus? Vel, delectus. Autem quos quibusdam reiciendis quaerat sed? Delectus possimus neque et in repellendus accusantium ipsa quae ipsam blanditiis ducimus enim tempore, doloremque quibusdam perferendis omnis numquam soluta nobis explicabo! Libero aut quia sunt dolores voluptate earum voluptatum, ullam facere, sint asperiores molestias. Veritatis fugiat quia, accusamus numquam, reprehenderit sint similique, laboriosam aliquid nihil impedit eligendi explicabo ipsam delectus ratione?</p>
                     <button id="books_add_to_wishlist">Add to Wishlist</button>
                     <button id="books_add_to_cart">Add to Cart</button>
                 </div>
             </div>
         </section>
         <footer>
-            <div class="help"><a href="help.html"><i class="fa fa-question-circle"></i></a></div>
-            <div class="settings"><i class="fa fa-cog fa-fw"></i></div>
+            <div class="footer_help"><a href="help.html"><i class="fa fa-question-circle" title="Help center"></i></a></div>
+            <div class="footer_settings"><i class="fa fa-cog fa-fw" title="Account settings"></i></div>
         </footer>
     </main>
-
+    <script src="../JS/login_reg.js"></script>
 </body>
 
 </html>

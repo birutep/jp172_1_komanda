@@ -21,7 +21,7 @@ main {
     height: 703px;
     float: right;
     background-color: whitesmoke;
-    font-family: Arial;
+/*    font-family: Arial;*/
 }
 
 .books_support_contact input[type=text],

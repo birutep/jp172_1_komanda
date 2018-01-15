@@ -10,15 +10,15 @@ main {
 }
 
 .books_help h1,
-h2 {
+.books_help h2 {
     margin: auto;
     padding: 10px 20px;
     text-align: center;
 }
 
 .books_help h1,
-h2,
-h3 {
+.books_help h2,
+.books_help h3 {
     color: #113063;
 }
 
