@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style_index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>MyBookApp</title>
+    <title>Book Store</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
                 <!-- Login Form -->
                 <div id="login_popup" class="header_popup">
                     <div class="header_login_content">
-                        <form class="header_modal_content" action="">
+                        <form class="header_modal_content">
                             <span onclick="close_login();" class="header_login_close" title="Close Login Form">&times;</span>
                             <div class="header_container">
                                 <h3><i class="fa fa-book"></i>Book Store</h3>
@@ -51,7 +51,7 @@
                 <!-- Registration Form -->
                 <div id="reg_popup" class="header_popup">
                     <div class="header_reg_content">
-                        <form class="header_modal_content" action="">
+                        <form class="header_modal_content">
                             <span onclick="close_reg()" class="header_login_close" title="Close Registration Form">&times;</span>
                             <div class="header_container">
                                 <h3><i class="fa fa-book"></i>Book Store</h3>
@@ -76,10 +76,10 @@
         </header>
         <nav>
             <div class="nav_navigation">
-                <a href="#"><button class="nav_buttons"><i class="fa fa-globe" aria-hidden="true"></i>  Browse</button></a>
-                <a href="HTML/buy_books.html"><button class="nav_buttons"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Buy Books</button></a>
-                <a href="HTML/favourite_books.html"><button class="nav_buttons"><i class="fa fa-star" aria-hidden="true"></i>  Favourite Books</button></a>
-                <a href="HTML/wishlist.html"><button class="nav_buttons"><i class="fa fa-th-list" aria-hidden="true"></i>  Wishlist</button></a>
+                <a href="#"><div class="nav_buttons"><i class="fa fa-globe" aria-hidden="true"></i>  Browse</div></a>
+                <a href="HTML/buy_books.html"><div class="nav_buttons"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Buy Books</div></a>
+                <a href="HTML/favourite_books.html"><div class="nav_buttons"><i class="fa fa-star" aria-hidden="true"></i>  Favourite Books</div></a>
+                <a href="HTML/wishlist.html"><div class="nav_buttons"><i class="fa fa-th-list" aria-hidden="true"></i>  Wishlist</div></a>
             </div>
         </nav>
         <section>
@@ -94,7 +94,7 @@
                     <a href="#" onclick="showPopular()">Most Popular</a>
                     <a href="#" onclick="showFree()">Free Books</a>
                     <div class="search_container">
-                        <form action="">
+                        <form>
                             <input type="text" placeholder="Enter Keywords" name="keywoards">
                             <button type="submit"><i class="fa fa-search"></i></button>
                         </form>
@@ -104,14 +104,12 @@
             </div>
             <div class="books">
                 <div class="books_area">
-
                     <div class="books_grid_container books_scrollbar" id="books_scrollbar_style">                        
-
                     </div>
                 </div>
             </div>
         </section>
-    <footer>
+        <footer>
             <div class="footer_help"><a href="HTML/help.html"><i class="fa fa-question-circle" title="Help center"></i></a></div>
             <div class="footer_settings"><i class="fa fa-cog fa-fw" title="Account settings"></i></div>
         </footer>
