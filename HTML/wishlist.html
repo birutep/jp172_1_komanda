@@ -6,6 +6,7 @@
     <meta name="author" content="Juda Labiau" />
     <link rel="stylesheet" href="../CSS/normalize.css">
     <link rel="stylesheet" href="../CSS/style_index.css">
+    <link rel="stylesheet" href="../CSS/wishlist.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MyBookApp</title>
 </head>
@@ -19,8 +20,8 @@
 
             <div class="right">
                 <div class="help_support">
-                    <p><a href="HTML/help.html">Help Center</a></p>
-                    <p><a href="HTML/support_contact.html">Our Support</a></p>
+                    <p><a href="../HTML/help.html">Help Center</a></p>
+                    <p><a href="../HTML/support_contact.html">Our Support</a></p>
                 </div>
                 <div class="login">
                     <p> <a href="HTML/login.html">Login</a></p>
@@ -34,27 +35,87 @@
                     <li><a href="../index.html"><img src="../IMG/nav/browse.png" alt="browse">Browse</a></li>
                     <li><a href="buy_books.html"><img src="../IMG/nav/buy-books.png" alt="buy books">Buy Books</a></li>
                     <li><a href="favourite_books.html"><img src="../IMG/nav/favourite-books.png" alt="favourite books">Favourite Books</a></li>
-                    <li><a href="#"><img src="../IMG/nav/wishlist.png" alt="wishlist">Wishlist</a></li>
+                    <li><a href="wishlist.html"><img src="../IMG/nav/wishlist.png" alt="wishlist">Wishlist</a></li>
                 </ul>
             </div>
         </nav>
         <section>
-            <div class="bookFilter">
-                <div>
-                    <p>Browse Available Books</p>
-                </div>
-                <div>
-                    <a class="active" href="#">All Books</a>
-                    <a href="#">Most Recent</a>
-                    <a href="#">Most Popular</a>
-                    <a href="#">Free Books</a>
-                    <input type="text" placeholder="Enter Keywords">
-                </div>
-            </div>
-            <div class="books">
-    
+            <div class="book_filter">
+                <p>Wishlist</p>
+                <input class="wishlist_button_clear_wishlist" type="button" value="Clear wishlist" onclick="wishlist_clear()">
+                <input class="wishlist_button_add_all_to_buy_list" type="button" value="Add all to buy list" onclick="wishlist_buy_all()">
             </div>
         </section>
+
+        <div class="books">
+            <div class="books_area">
+
+                <div class="wishlist_grid_container books_scrollbar" id="books_scrollbar_style">
+                    <div class="wishlist_box">
+                        <div class="wishlist_box_book_img">
+                            <img src="../IMG/books_book_01.jpg" alt="book">
+                        </div>
+                        <div class="wishlist_box_book_about">
+                            <h3>Book name</h3>
+                            <p>by Author Name</p>
+                            <p class="wishlist_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="wishlist_box_book_price_action">
+                            <div>
+                                <p>&#8364; per book: <span>10,54</span></p>
+                            </div>
+                            <div>
+                                <input class="wishlist_button_remove_from_wishlist" type="button" value="Remove from wishlist" onclick="wishlist_remove()">
+                                <input class="wishlist_button_add_to_buy_list" type="button" value="Add to buy list" onclick="wishlist_buy()">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wishlist_box">
+                        <div class="wishlist_box_book_img">
+                            <img src="../IMG/books_book_01.jpg" alt="book">
+                        </div>
+                        <div class="wishlist_box_book_about">
+                            <h3>Book name</h3>
+                            <p>by Author Name</p>
+                            <p class="wishlist_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="wishlist_box_book_price_action">
+                            <div>
+                                <p>&#8364; per book: <span>10,54</span></p>
+                            </div>
+                            <div>
+                                <input class="wishlist_button_remove_from_wishlist" type="button" value="Remove from wishlist" onclick="wishlist_remove()">
+                                <input class="wishlist_button_add_to_buy_list" type="button" value="Add to buy list" onclick="wishlist_buy()">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wishlist_box">
+                        <div class="wishlist_box_book_img">
+                            <img src="../IMG/books_book_01.jpg" alt="book">
+                        </div>
+                        <div class="wishlist_box_book_about">
+                            <h3>Book name</h3>
+                            <p>by Author Name</p>
+                            <p class="wishlist_box_book_summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="wishlist_box_book_price_action">
+                            <div>
+                                <p>&#8364; per book: <span>10,54</span></p>
+                            </div>
+                            <div>
+                                <input class="wishlist_button_remove_from_wishlist" type="button" value="Remove from wishlist" onclick="wishlist_remove()">
+                                <input class="wishlist_button_add_to_buy_list" type="button" value="Add to buy list" onclick="wishlist_buy()">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
         <footer>
             <div class="help"><a href="help.html"><i class="fa fa-question-circle"></i></a></div>
             <div class="settings"><i class="fa fa-cog fa-fw"></i></div>
