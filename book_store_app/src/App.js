@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Footeris from './FooterPvz/Footeris';
+
 class App extends Component {
   render() {
     return (
       <div>
-        Book Store, created by react. Or not.
+        <Footeris></Footeris>
+        <Footeris></Footeris>
       </div>
     );
   }
