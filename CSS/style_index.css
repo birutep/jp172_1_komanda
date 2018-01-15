@@ -26,7 +26,7 @@ header a {
     margin: auto;
 }
 
-.bookStore {
+.header_bookStore {
     margin: auto;
     width: 100px;
     text-align: center;
@@ -39,48 +39,152 @@ header a {
     padding-right: 5px;
 }
 
-.right {
+.header_right {
     width: 300px;
     display: flex;
     justify-content: flex-end;
 }
 
-.help_support {
+.header_help_support {
     display: flex;
     align-content: flex-end;
     color: #c3c8db;
 }
 
-.help_support a {
+.header_help_support a {
     color: #c3c8db;
 }
 
-.right p {
+.header_right p {
     margin: auto;
     margin-right: 0px;
     margin-left: 10px;
 }
 
-.help_support p:first-child::before {
+.header_help_support p:first-child::before {
     content: "●";
     color: #1f2637;
     padding-right: 10px;
 }
 
-.login {
+.header_login_btn {
     width: 100px;
     display: flex;
     align-content: flex-end;
     justify-content: center;
     color: #ffffff;
+    cursor: pointer;
 }
 
-.login a:first-child {
+.header_login_btn:hover {
+    opacity: 0.8;
+}
+
+.header_login_btn a:first-child {
     width: auto;
     text-align: right;
     color: #ffffff;
 }
 
+
+/*-------------------LOGIN-REGISTRATION----------------------------*/
+
+.header_popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #444c63;
+}
+
+.header_modal_content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 7% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 400px;
+}
+
+.header_form_bordered {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    padding-top: 0;
+    border: silver solid 1px;
+    border-radius: 5px;
+}
+
+.header_container h3 {
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header_container h2 {
+    padding-bottom: 10px;
+}
+
+.header_container input,
+.header_submit {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #888;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.header_modal_content button,
+.header_modal_content label,
+.header_reg a,
+.header_reg_modal_content button {
+    color: #2f364a;
+}
+
+.header_container .header_remember,
+.header_container {
+    margin: 0;
+    width: 20px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.header_login_close {
+    color: #444c63;
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.header_login_close:hover,
+.header_login_close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.header_reg:hover,
+.header_reg_to_login:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.header_reg_content .header_modal_content {
+    height: 470px;
+}
 
 
 /*-------------------NAV KAIRE---------------------------------------------------------*/
@@ -379,13 +483,13 @@ footer i {
     color: #ffff;
 }
 
-.help {
+.footer_help {
     width: 55px;
     padding-top: 15px;
     background-color: #1f2637;
 }
 
-.settings {
+.footer_settings {
     width: 55px;
     padding-top: 15px;
     border-bottom-right-radius: 5px;
