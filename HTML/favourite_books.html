@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Juda Labiau" />
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/style_index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MyBookApp</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="header_bookStore">
+                <p><i class="fa fa-book"></i><a href="../index.html">Book Store</a></p>
+            </div>
+            <div class="header_right">
+                <div class="header_help_support">
+                    <p><a href="help.html">Help Center</a></p>
+                    <p><a href="support_contact.html">Our Support</a></p>
+                </div>
+                <!-- Login Button -->
+                <div class="header_login_btn">
+                    <p onclick="show_login()">Login</p>
+                    <p><i class="fa fa-check-circle"></i></p>
+                </div>
+                <!-- Login Form -->
+                <div id="login_popup" class="header_popup">
+                    <div class="header_login_content">
+                        <form class="header_modal_content" action="">
+                            <span onclick="close_login();" class="header_login_close" title="Close Login Form">&times;</span>
+                            <div class="header_container">
+                                <h3><i class="fa fa-book"></i>Book Store</h3>
+                                <div class="header_form_bordered">
+                                    <h2>Login</h2>
+                                    <label><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
+                                    <button class="header_submit" type="submit">Login</button>
+                                    <label><input class="header_remember" type="checkbox" checked="checked">Remember me</label><br>
+                                    <hr>
+                                    <p class="header_reg" onclick="show_reg();close_login();">Register new account.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Registration Form -->
+                <div id="reg_popup" class="header_popup">
+                    <div class="header_reg_content">
+                        <form class="header_modal_content" action="">
+                            <span onclick="close_reg()" class="header_login_close" title="Close Registration Form">&times;</span>
+                            <div class="header_container">
+                                <h3><i class="fa fa-book"></i>Book Store</h3>
+                                <div class="header_form_bordered">
+                                    <h2>Register new account</h2>
+                                    <label><b>Your name</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Email</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
+                                    <label><b>Re-enter password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"><br>
+                                    <button class="header_submit" type="submit">Create new account</button>
+                                    <p>Already have an account? <span class="header_reg_to_login" onclick="close_reg();show_login();">Login here.</span></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="nav_navigation">
+                <ul>
+                    <li><a href="../index.html"><img src="../IMG/nav/browse.png" alt="browse">Browse</a></li>
+                    <li><a href="buy_books.html"><img src="../IMG/nav/buy-books.png" alt="buy books">Buy Books</a></li>
+                    <li><a href="#"><img src="../IMG/nav/favourite-books.png" alt="favourite books">Favourite Books</a></li>
+                    <li><a href="wishlist.html"><img src="../IMG/nav/wishlist.png" alt="wishlist">Wishlist</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="book_filter">
+                <div>
+                    <p>Browse Available Books</p>
+                </div>
+                <div>
+                    <a class="active" href="#">All Books</a>
+                    <a href="#">Most Recent</a>
+                    <a href="#">Most Popular</a>
+                    <a href="#">Free Books</a>
+                    <!--<input type="text" placeholder="Enter Keywords">--></div>
+                <div class="search_container">
+                    <form action="">
+                        <input type="text" placeholder="Enter Keywords" name="keywoards">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="books">
+
+            </div>
+        </section>
+        <footer>
+            <div class="footer_help"><a href="help.html"><i class="fa fa-question-circle" title="Help center"></i></a></div>
+            <div class="footer_settings"><i class="fa fa-cog fa-fw" title="Account settings"></i></div>
+        </footer>
+    </main>
+    <script src="../JS/login_reg.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+.books_image {
+    width: 30%;
+    height: 80%;
+    background-size: contain;
+    border-radius: 6px;
+    padding: 10px;
+    float: left;
+}
+
+.books_image span {
+    margin: 10px;
+}
+
+.books_description {
+    width: 90%;
+    height: 80%;
+}
+
+.books_description button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+#books_add_to_wishlist {
+    margin-top: 150px;
+    background-color: #eae7d5;
+}
+
+#books_add_to_cart {
+    background-color: #ffe049;
+}
