@@ -108,15 +108,16 @@ header a {
     position: relative;
     background-color: #fefefe;
     margin: 7% auto;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #888;
+    border-radius: 6px;
     width: 30%;
-    height: 400px;
+    height: 375px;
 }
 
 .header_form_bordered {
     margin: auto;
-    width: 70%;
+    width: 80%;
     padding: 20px;
     padding-top: 0;
     border: silver solid 1px;
@@ -126,7 +127,8 @@ header a {
 .header_container h3 {
     margin: auto;
     width: 200px;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -184,7 +186,7 @@ button:hover,
 
 
 .header_reg_content .header_modal_content {
-    height: 470px;
+    height: 450px;
 }
 
 
