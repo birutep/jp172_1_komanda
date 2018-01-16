@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <div className={pagrindinesKlases.App}>
         <Header></Header>
-        <Knopf></Knopf>
-        <Knopf></Knopf>
+        <Knopf parsas="All books"></Knopf>
+        <Knopf parsas="Free books"></Knopf>
 
       </div>
     );

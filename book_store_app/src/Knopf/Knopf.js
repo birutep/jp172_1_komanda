@@ -5,7 +5,7 @@ import knopfKlase from './Knopf.css';
 const Knopfs = ( props ) => {
     return (
         <div className={knopfKlase.knopf}>
-           All Books {props.knopf}
+            {props.parsas}
         </div>
         
         
