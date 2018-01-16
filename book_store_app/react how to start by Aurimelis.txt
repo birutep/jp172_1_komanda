@@ -1,0 +1,14 @@
+-----------Atliekame tik pirma karta instaliuodami i savo pc------------------------------------------------
+
+Turim turet Node kompiuteryje, pasitikrinam terminale irase node -v
+parsisiuntimui https://nodejs.org/en/ instaliuojame next next...
+
+intaliuojame Create React App, terminale irasom npm install -g create-react-app
+----------Atliekame kaskart noredami pasileisti appsa------------------------------------------------------
+
+einam i book_store_app direktorija, joje atsidarome terminala,
+ windose diskas pakeiciamas raide: pvz d: o toliau su cd ir tab,
+ arba galima atsidaryt grafineje aplinkioje su shift+desinys peles -> open power shell here,
+ del judejimo per direktorijas linux aplinkoje kreipkites tomas.tribusauskas@gmail.com
+
+pasileidziam su komanda npm start atsidarys narsykle http://localhost:3000/ kur ir bus atvaizduotas musu tinklapis su react
