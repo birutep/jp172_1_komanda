@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/style_index.css">
     <link rel="stylesheet" href="../CSS/help.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>MyBookApp</title>
+    <title>Book Store</title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
             </div>
             <div class="header_right">
                 <div class="header_help_support">
-                    <p><a href="HTML/help.html">Help Center</a></p>
-                    <p><a href="HTML/support_contact.html">Our Support</a></p>
+                    <p><a href="#">Help Center</a></p>
+                    <p><a href="support_contact.html">Our Support</a></p>
                 </div>
                 <!-- Login Button -->
                 <div class="header_login_btn">
@@ -30,7 +30,7 @@
                 <!-- Login Form -->
                 <div id="login_popup" class="header_popup">
                     <div class="header_login_content">
-                        <form class="header_modal_content" action="">
+                        <form class="header_modal_content">
                             <span onclick="close_login();" class="header_login_close" title="Close Login Form">&times;</span>
                             <div class="header_container">
                                 <h3><i class="fa fa-book"></i>Book Store</h3>
@@ -52,7 +52,7 @@
                 <!-- Registration Form -->
                 <div id="reg_popup" class="header_popup">
                     <div class="header_reg_content">
-                        <form class="header_modal_content" action="">
+                        <form class="header_modal_content">
                             <span onclick="close_reg()" class="header_login_close" title="Close Registration Form">&times;</span>
                             <div class="header_container">
                                 <h3><i class="fa fa-book"></i>Book Store</h3>
@@ -77,31 +77,23 @@
         </header>
         <nav>
             <div class="nav_navigation">
-                <ul>
-                    <li><a href="../index.html"><img src="../IMG/nav/browse.png" alt="browse">Browse</a></li>
-                    <li><a href="buy_books.html"><img src="../IMG/nav/buy-books.png" alt="buy books">Buy Books</a></li>
-                    <li><a href="favourite_books.html"><img src="../IMG/nav/favourite-books.png" alt="favourite books">Favourite Books</a></li>
-                    <li><a href="wishlist.html"><img src="../IMG/nav/wishlist.png" alt="wishlist">Wishlist</a></li>
-                </ul>
+                <a href="../index.html"><div class="nav_buttons"><i class="fa fa-globe" aria-hidden="true"></i>  Browse</div></a>
+                <a href="buy_books.html"><div class="nav_buttons"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Buy Books</div></a>
+                <a href="favourite_books.html"><div class="nav_buttons"><i class="fa fa-star" aria-hidden="true"></i>  Favourite Books</div></a>
+                <a href="wishlist.html"><div class="nav_buttons"><i class="fa fa-th-list" aria-hidden="true"></i>  Wishlist</div></a>
             </div>
         </nav>
         <section>
             <div class="book_filter">
 
                 <div>
-                    <p>My Book App</p>
+                    <p>Book Store</p>
                 </div>
 
                 <div>
 
                     <a class="active" href="../HTML/help.html">Help Center</a>
 
-                    <div class="search_container">
-                        <form action="">
-                            <input type="text" placeholder="Enter Keywords" name="keywoards">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                    </div>
                 </div>
             </div>
 
