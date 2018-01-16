@@ -1,0 +1,9 @@
+.nav {
+    float: left;
+    width: 200px;
+    height: 900px;
+    background-color: #1f2637;
+    color: #78829d;
+    font-size: 12px;
+    text-align: left;
+}

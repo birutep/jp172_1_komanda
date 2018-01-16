@@ -1,0 +1,21 @@
+.nav_buttons {
+    width: 180px;
+    height: 40px;
+    display: block;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    text-align: inherit;
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+.nav_buttons:hover {
+    background-color: #15a4fa;
+    color: #ffffff;
+    cursor: pointer;
+}
