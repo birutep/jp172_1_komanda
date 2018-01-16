@@ -21,15 +21,6 @@ p {
     margin: 0;
     color: #6f7d95;
 }
-
-/*bp: rating skale*/
-
-.books_rating_static {
-    width: 90px;
-    height: 18px;
-    display: block;
-    background: url('./books_ratingStars.png');
-}
 .oranzine{
     color: #FFAB00;
 }
