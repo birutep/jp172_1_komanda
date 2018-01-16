@@ -3,16 +3,17 @@ import pagrindinesKlases from './App.css';
 
 import Footeris from './FooterPvz/Footeris';
 import Mygtukas from './MygtukoPvz/Mygtukas';
+import Header from './SubHeader/SubHeader';
+import Knopf from './Knopf/Knopf';
 
 class App extends Component {
   render() {
     return (
       <div className={pagrindinesKlases.App}>
-        <Footeris />
-          <Mygtukas pavadinimas={'Mygtukas1'} />
-          <Mygtukas pavadinimas={'Mygtukas1'} />
-          <Mygtukas pavadinimas={'SuperMygtukas'} />
-        <Footeris />
+        <Header></Header>
+        <Knopf></Knopf>
+        <Knopf></Knopf>
+
       </div>
     );
   }
