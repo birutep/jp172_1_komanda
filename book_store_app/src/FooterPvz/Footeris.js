@@ -1,6 +1,6 @@
 import React from 'react';
 import footreioKlase from './Footeris.css';
-//import Knopke from '../MygtukoPvz/Mygtukas';  //atkomentuot tik kai busi pasiruoses :)
+import Knopke from '../MygtukoPvz/Mygtukas';  //atkomentuot tik kai busi pasiruoses :)
 
 //footerioKlase yra masyvas su visomis klasemis kurios aprasytos Footeris.css faile, kintamojo pavadinimas koks nori, svarbu .css failas
  //konkrecias klases pasiekiame naudodami  jei Footeris.css yra tokia klase .red, tai ja perduodam footreioKlase.red
@@ -11,7 +11,7 @@ const footeris = ( props ) => { //sicia props nepanaudota, bet reliaia cia masyv
         <div className={footreioKlase.footeris}>
             <div className={footreioKlase.jurgiui}>Help center</div>
             <div className={footreioKlase.jurgiui}>Account settings</div>
-            {/* <Knopke pavadinimas={'Paimta is MygtukoPvz'}/>    //atkomentuot kai busi pasiruoses :)   */}
+            <Knopke pavadinimas={'Paimta is MygtukoPvz'}/>     
         </div>
     )
 };
