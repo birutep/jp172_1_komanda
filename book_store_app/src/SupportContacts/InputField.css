@@ -1,0 +1,21 @@
+.books_support_contact {
+    overflow: hidden;
+    background-color: whitesmoke;
+    color: #113063;
+    overflow: hidden;
+    float: left;
+    line-height: 1px;
+}
+
+.books_support_contact p{
+    float: left;
+}
+
+.books_support_contact input[type=text],
+select {
+    width: 350px; /*CIA INPUT LAUKELIO PLOTIS*/
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
