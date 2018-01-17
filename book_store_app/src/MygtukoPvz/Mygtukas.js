@@ -7,6 +7,7 @@ const mygtukas = ( props ) => {
         <div className={mygtukoKlases.mygtukas}>
            As esu {props.pavadinimas}
         </div>
+        
     )
 };
 
