@@ -1,0 +1,14 @@
+.header_help_support {
+    display: flex;
+    align-content: flex-end;
+    color: #c3c8db;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header_help_support p:first-child::before {
+    content: "●";
+    color: #1f2637;
+    padding-right: 10px;
+}
