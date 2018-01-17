@@ -1,0 +1,23 @@
+.inputField {
+    width: 100%;
+    color: #113063;
+}
+
+.inputField textarea {
+    width: 100%; /*CIA INPUT LAUKELIO PLOTIS*/
+    height: 80px;
+    padding:3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.inputField textarea::-webkit-input-placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+
+.inputField p{
+    float: left;
+}
+

@@ -3,7 +3,6 @@ import pagrindinesKlases from './App.css';
 import Nav from './Nav/Nav';
 import Content from './Content/Content';
 
-
 class App extends Component {
   render() {
     return (
