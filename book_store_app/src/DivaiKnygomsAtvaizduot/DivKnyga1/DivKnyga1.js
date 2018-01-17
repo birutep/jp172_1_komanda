@@ -18,7 +18,7 @@ export default knyga1;
 
 
 //norint paze App.js faile imetam virsuje
-//import Knyga1 from './DivKnyga1/DivKnyga1';
+//import Knyga1 from '.DivaiKnygomsAtvaizduot/DivKnyga1/DivKnyga1';
 
 //o returne 
 

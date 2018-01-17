@@ -1,0 +1,18 @@
+
+.book_filter {
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    background-color: #eaeef2;
+}
+
+.book_filter_p {
+    float: left;
+    padding: 13px;
+    color: #52617a;
+    font-size: 17px;
+    /* border-bottom: 1px solid #d5dee8; */
+}
+
