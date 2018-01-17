@@ -4,7 +4,7 @@ import inputField from './InputField.css';
 
 const InputField = ( props ) => {
     return (
-        <div className={inputField.books_support_contact}>
+        <div className={inputField.inputField}>
                <form>
                <p>{props.info}</p>
                <br/>

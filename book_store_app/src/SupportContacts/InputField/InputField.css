@@ -1,0 +1,20 @@
+.inputField {
+    width: 100%;
+    color: #113063;
+}
+
+.inputField input[type=text],
+select {
+    width: 100%; /*CIA INPUT LAUKELIO PLOTIS*/
+    height: 20px;
+    padding:3px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inputField p {
+    float:left;
+}
+
+
