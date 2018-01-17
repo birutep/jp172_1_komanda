@@ -1,0 +1,12 @@
+
+.grid_container {
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30% 30% 30%;
+    grid-gap: 4px;
+}
