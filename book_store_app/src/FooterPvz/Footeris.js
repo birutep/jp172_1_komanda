@@ -11,7 +11,7 @@ const footeris = ( props ) => { //sicia props nepanaudota, bet reliaia cia masyv
         <div className={footreioKlase.footeris}>
             <div className={footreioKlase.jurgiui}>Help center</div>
             <div className={footreioKlase.jurgiui}>Account settings</div>
-            {/* <Knopke pavadinimas={'Paimta is MygtukoPvz'}/>    //atkomentuot kai busi pasiruoses :)   */}
+            <Knopke pavadinimas={'Paimta is MygtukoPvz'}/>     
         </div>
     )
 };
@@ -24,3 +24,4 @@ const footeris = ( props ) => { //sicia props nepanaudota, bet reliaia cia masyv
 export default footeris;
 //tai ka eksportuojam, pavadiniams turi sutapt su onst -->footeris<--- = ( props ) => {
 //jei eksportuojam daugiau reik nurodinet vardus, jei tik viena jis auto yra defaultas
+//galima turet kelis exportus, tada jau ne default o const ir importinant import {pavadinimas} from './keliasikifailo'
