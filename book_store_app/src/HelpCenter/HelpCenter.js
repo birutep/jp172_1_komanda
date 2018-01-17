@@ -1,13 +1,14 @@
 import React from 'react';
 import SubHeader from '../SubHeader/SubHeader';
+import HelpContentAll from '../Help/HelpContentAll';
 
-const Wishlist = ( props ) => {
+const HelpCenter = ( props ) => {
     return (
         <div>
             <SubHeader />
-            <p>Wishlist</p>
+            <HelpContentAll />
         </div>
     )
 };
 
-export default Wishlist;
+export default HelpCenter;

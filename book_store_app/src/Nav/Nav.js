@@ -1,7 +1,7 @@
 import React from 'react';
 import NavButton from './Nav_Button/Nav_Button';
 import Nav_Style from './Nav.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 // clickHandler = () => {
 //     this.props.history.push('/footer');
