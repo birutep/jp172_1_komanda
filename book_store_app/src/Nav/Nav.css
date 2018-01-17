@@ -7,3 +7,8 @@
     font-size: 12px;
     text-align: left;
 }
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
