@@ -6,9 +6,9 @@ const loginas = ( props ) => {
         <div id="login_popup" className={cssKlases.header_popup}>
             <div className={cssKlases.header_login_content}>
                 <form className={cssKlases.header_modal_content}>
-                    <span  className="header_login_close" title="Close Login Form">&times;</span>
-                    <div className="header_container">
-                        <h3><i className="fa fa-book"></i>Book Store</h3>
+                    <span  className={cssKlases.header_login_close} title="Close Login Form">&times;</span>
+                    <div className={cssKlases.header_container}>
+                        <h3><i className="fa fa-book"></i> Book Store</h3>
                         <div className={cssKlases.header_form_bordered}>
                             <h2>Login</h2>
                             <label><b>Username</b></label>

@@ -19,13 +19,13 @@
     padding: 15px;
     border: 1px solid #888;
     border-radius: 6px;
-    width: 30%;
-    height: 375px;
+    width: 400px;
+    height: 400px;
 }
 
 .header_form_bordered {
-    margin: auto;
-    width: 80%;
+    width: 89%;
+    height: 83%;
     padding: 20px;
     padding-top: 0;
     border: silver solid 1px;
@@ -37,11 +37,13 @@ h3 {
     width: 200px;
     padding-top: 10px;
     padding-bottom: 15px;
+    font-size: 0.9em;
 
 }
 
 .header_container h2 {
     padding-bottom: 10px;
+    font-size: 1.5em;
 }
 
 .header_container input,
@@ -55,11 +57,20 @@ h3 {
     box-sizing: border-box;
 }
 
+.header_submit {
+    font-weight: bold;
+}
+
 .header_modal_content button,
 .header_modal_content label,
-.header_reg a,
 .header_reg_modal_content button {
     color: #2f364a;
+    font-size: 0.9em;
+}
+
+.header_reg{
+    color: #2f364a;
+    font-size: 0.8em; 
 }
 
 .header_container .header_remember,
