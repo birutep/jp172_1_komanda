@@ -157,9 +157,7 @@ header a {
 .header_container .header_remember,
 .header_container {
     margin: 0;
-    width: 20px;
     display: inline;
-    margin-bottom: 20px;
 }
 
 .header_login_close {
