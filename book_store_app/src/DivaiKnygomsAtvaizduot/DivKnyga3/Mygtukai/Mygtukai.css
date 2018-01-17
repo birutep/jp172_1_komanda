@@ -1,0 +1,61 @@
+.buy_books_button_dark {
+    width: 150px;
+    height: 25px;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #444c63;
+    color: white;
+    border-top: 1px solid #5a6687;
+    border-left: 1px solid #5a6687;
+    border-right: 2px solid #5a6687;
+    border-bottom: 2px solid #5a6687;
+    border-radius: 5px;
+    float: left;
+}
+
+.buy_books_button_light {
+    width: 150px;
+    height: 25px;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #6f7d95;
+    color: white;
+    border-top: 1px solid #95a7c1;
+    border-left: 1px solid #95a7c1;
+    border-right: 2px solid #95a7c1;
+    border-bottom: 2px solid #95a7c1;
+    border-radius: 5px;
+    float: left;
+}
+
+.buy_books_button_dark_small {
+    width: 100px;
+    height: 15px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #444c63;
+    color: white;
+    border-top: 1px solid #5a6687;
+    border-left: 1px solid #5a6687;
+    border-right: 2px solid #5a6687;
+    border-bottom: 2px solid #5a6687;
+    border-radius: 3px;
+    float: left;
+    font-size: 0.7em;
+}
+
+.buy_books_button_light_small {
+    width: 100px;
+    height: 15px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #6f7d95;
+    color: white;
+    border-top: 1px solid #95a7c1;
+    border-left: 1px solid #95a7c1;
+    border-right: 2px solid #95a7c1;
+    border-bottom: 2px solid #95a7c1;
+    border-radius: 3px;
+    float: left;
+    font-size: 0.7em;
+}

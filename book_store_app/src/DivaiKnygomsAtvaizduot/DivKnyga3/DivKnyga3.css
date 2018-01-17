@@ -1,0 +1,75 @@
+/*.......BUY_BOOKS      .........*/
+
+.wishlist_grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 360px;
+    grid-gap: 15px;
+
+    font-size: 14px;
+}
+
+.wishlist_box {
+    clear: both;
+    padding: 15px;
+}
+
+
+
+.wishlist_box_book_about {
+    height: 100%;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.wishlist_box_book_price_action {
+    height: 100%;
+    width: 25%;
+    float: right;
+    color: #6f7d95;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 5em;
+}
+
+.wishlist_box_book_summary {
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: 0;
+    color: #6f7d95;
+    font-size: 0.8em;
+}
+
+.wishlist_box_about_book {
+    height: 100%;
+    float: right;
+}
+
+.wishlist_box_book_img {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    float: left;
+}
+
+h3 {
+    padding-top: 13px;
+    margin: 0;
+    color: #444c63;
+}
+
+ p {
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: 0;
+    color: #6f7d95;
+}
+
+
+.buy_books_book_price {
+    padding-top: 20px;
+
+}
