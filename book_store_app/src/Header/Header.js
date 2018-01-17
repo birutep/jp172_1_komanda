@@ -2,6 +2,7 @@ import React from 'react';
 import headerioStiliai from './Header.css';
 import Support_help from './Support_help/Support_help';
 import Login from './Login/Login';
+import { Link } from 'react-router-dom';
 
 const Header = ( props ) => { 
     return (
@@ -11,8 +12,8 @@ const Header = ( props ) => {
             <p><i className="fa fa-book"></i>&ensp;Book Store</p>
             </div>
            
-            <Support_help pavadinimas={'Help Center'}/> 
-            <Support_help pavadinimas={'Our Support'}/> 
+            <Link to='/help'><Support_help pavadinimas={'Help Center'}/></Link>
+            <Link to='/support'><Support_help pavadinimas={'Our Support'}/></Link>
             <Login/> 
             </header>
         </div>
