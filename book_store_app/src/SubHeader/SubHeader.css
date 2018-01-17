@@ -1,10 +1,18 @@
-.test{
-    width: 1120px;
-    margin-left: 200px;
-    width: 1120px;;
+
+.book_filter {
+    width: 100%;
     height: 120px;
     box-sizing: border-box;
-    border: 1px solid grey;
-    margin: auto;
-    color: red;
+    float: left;
+    overflow: hidden;
+    background-color: #eaeef2;
 }
+
+.book_filter_p {
+    float: left;
+    padding: 13px;
+    color: #52617a;
+    font-size: 17px;
+    /* border-bottom: 1px solid #d5dee8; */
+}
+
