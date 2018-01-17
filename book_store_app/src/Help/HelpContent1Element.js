@@ -6,8 +6,8 @@ const HelpContent1Element = ( props ) => {
     return (
         <div className={help.books_help}>
               <div class="box1">
-                  <h3>{props.pavadinimas}</h3>
-                   <p>{props.turinys}</p>
+                  <h3>{props.name}</h3>
+                   <p>{props.content}</p>
              </div>
     
         </div>
