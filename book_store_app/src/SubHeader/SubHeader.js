@@ -11,3 +11,6 @@ const sub = ( props ) => {
 };
 
 export default sub;
+
+//App.js divui <SubHeader name="Wishlist"></SubHeader>
+//App.js importui: import SubHeader from './SubHeader/SubHeader';

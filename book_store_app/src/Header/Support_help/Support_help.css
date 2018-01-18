@@ -1,14 +1,16 @@
 .header_help_support {
-    display: flex;
-    align-content: flex-end;
-    color: #c3c8db;
-    margin: auto;
+    /* display: flex;
+    align-content: flex-end; */
+    /* color: #c3c8db; */
+    /* margin: auto;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 10px; */
 }
 
-.header_help_support p:first-child::before {
-    content: "●";
-    color: #1f2637;
-    padding-right: 10px;
-}
+/* .header_help_support a {
+text-decoration: none;
+color: #c3c8db;
+width: 75px;
+margin: auto;
+} */
+

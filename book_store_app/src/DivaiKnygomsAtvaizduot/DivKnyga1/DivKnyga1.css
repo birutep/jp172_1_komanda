@@ -1,3 +1,8 @@
+.oranzine{
+    color: #FFAB00;
+    
+}
+
 .oranzine img {
     width: 200px;                  /* reikai konkretaus dydzio arba 100proc gride kuriam jis atsidurs, bet testinat jien esideda i grida ir reik speliot matmenis, ilgi auksti veliau pakeist procentais*/
     background-size: contain;
@@ -16,7 +21,4 @@
     padding-bottom: 2px;
     margin: 0;
     color: #6f7d95;
-}
-.oranzine{
-    color: #FFAB00;
 }
