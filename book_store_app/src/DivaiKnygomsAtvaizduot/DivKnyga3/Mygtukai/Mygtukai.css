@@ -10,8 +10,8 @@
     border-right: 2px solid #5a6687;
     border-bottom: 2px solid #5a6687;
     border-radius: 5px;
-    float: left;
-}
+    /* float: left;   */     /* Uzkomentuota, nes trukdo pilkam SubHeaderBottomBuyBooks */
+ }
 
 .buy_books_button_light {
     width: 150px;
