@@ -20,14 +20,11 @@ class App extends Component {
   render() {
     return (
       <div className={pagrindinesKlases.App}>
-    
-
         <Header />
-
         <Nav />
         <Content />
         <Footer />
-        <Register />
+        {/* <Register /> */}
         {/* <Login /> */}
 
         {/* <Register /> */}
