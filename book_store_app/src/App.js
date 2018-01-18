@@ -5,8 +5,9 @@ import Content from './Content/Content';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 
-// import Register from './LoginRegister/Register';
-// import Login from './LoginRegister/Login';
+import Register from './LoginRegister/Register';
+import Login from './LoginRegister/Login';
+
 
 import knygos from '../src/data/books.json';
 
@@ -23,10 +24,8 @@ class App extends Component {
         <Nav />
         <Content />
         <Footer />
+        <Login />
         <Register />
-        {/* <Login /> */}
-        {/* <Register /> */}
-        {/* <Login />*/}
 
       </div>
     );

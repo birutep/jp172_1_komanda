@@ -12,16 +12,16 @@ const loginas = ( props ) => {
                         <div className={cssKlases.header_form_bordered}>
                         <h2>Register new account</h2>
                                     <label><b>Your name</b></label>
-                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"/><br/>
+                                    <input type="text" placeholder="Enter Username" name="uname" required /><br/>
                                     <label><b>Email</b></label>
-                                    <input type="text" placeholder="Enter Username" name="uname" required onfocus="this.placeholder = ''"/><br/>
+                                    <input type="text" placeholder="Enter Username" name="uname" required /><br/>
                                     <label><b>Password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"/><br/>
+                                    <input type="password" placeholder="Enter Password" name="psw" required /><br/>
                                     <label><b>Re-enter password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required onfocus="this.placeholder = ''"/><br/>
-                                    <button class="header_submit" type="submit">Create new account</button>
+                                    <input type="password" placeholder="Enter Password" name="psw" required /><br/>
+                                    <button className="header_submit" type="submit">Create new account</button>
                             <hr />
-                            <p className={cssKlases.header_reg}>Already have an account? <span class="header_reg_to_login" onclick="close_reg();show_login();">Login here.</span></p>
+                            <p className={cssKlases.header_reg}>Already have an account? <span className="header_reg_to_login" >Login here.</span></p>
                         </div>
                     </div>
                 </form>
