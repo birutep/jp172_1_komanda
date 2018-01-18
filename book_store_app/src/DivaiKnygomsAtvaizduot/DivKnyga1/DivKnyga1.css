@@ -1,7 +1,3 @@
-.books_box {
-    background-color: white;
-}
-
 .oranzine img {
     width: 200px;                  /* reikai konkretaus dydzio arba 100proc gride kuriam jis atsidurs, bet testinat jien esideda i grida ir reik speliot matmenis, ilgi auksti veliau pakeist procentais*/
     background-size: contain;
