@@ -1,0 +1,20 @@
+.header_login_btn {
+    width: 90px;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: right;
+}
+
+.header_login_btn:hover {
+    opacity: 0.8;
+}
+
+.tarpelis {
+padding-left: 10px;
+}

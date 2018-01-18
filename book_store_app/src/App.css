@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
-  width: 1400;
+  width: 1320px;
   margin: auto;
+  background-color: whitesmoke;
+  font-family: Arial;
 }
