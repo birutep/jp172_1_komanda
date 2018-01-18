@@ -7,6 +7,7 @@ import Wishlist from '../Wishlist/Wishlist';
 import ContentStyle from './Content.css';
 import HelpCenter from '../HelpCenter/HelpCenter';
 import OurSupport from '../OurSupport/OurSupport';
+import Login from '../Header/Login/Login';
 
 const Content = () => (
   <main className={ContentStyle.content}>

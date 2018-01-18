@@ -7,7 +7,7 @@ import mygtukoKlases from './../DivKnyga3/Mygtukai/Mygtukai.css';
 
 const knyga3 = ( props ) => {
     return (
-        <div className={cssKlases.wishlist_box}>
+        <div className={cssKlases.box}>
 
             <div className={cssKlases.img}>
                 <img src={props.img} alt="book" />

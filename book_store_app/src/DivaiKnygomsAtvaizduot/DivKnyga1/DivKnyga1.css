@@ -2,20 +2,20 @@
     background-color: white;
 }
 
-img {
+.oranzine img {
     width: 200px;                  /* reikai konkretaus dydzio arba 100proc gride kuriam jis atsidurs, bet testinat jien esideda i grida ir reik speliot matmenis, ilgi auksti veliau pakeist procentais*/
     background-size: contain;
     border-radius: 6px;
 }
 
-h3 {
+.oranzine h3 {
     padding-top: 13px;
     margin: 0;
     color: #444c63;
     /*bp:parinkta su color droperiu ir color pickeriu*/
 }
 
-p {
+.oranzine p {
     padding-top: 7px;
     padding-bottom: 2px;
     margin: 0;
