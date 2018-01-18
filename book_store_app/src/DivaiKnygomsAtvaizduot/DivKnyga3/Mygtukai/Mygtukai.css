@@ -1,7 +1,11 @@
-.buy_books_button_dark {
+
+/*sukuriau papildoma klase SubHeaderBottomBuyBook klasei*/
+.buy_books_button_dark_exp { 
     width: 150px;
     height: 25px;
     padding-top: 8px;
+    margin-top: -45px;
+    margin-right: 54px;
     text-align: center;
     background-color: #444c63;
     color: white;
@@ -10,13 +14,31 @@
     border-right: 2px solid #5a6687;
     border-bottom: 2px solid #5a6687;
     border-radius: 5px;
-    /* float: left;   */     /* Uzkomentuota, nes trukdo pilkam SubHeaderBottomBuyBooks */
+    float: right;
+    
+ }
+
+.buy_books_button_dark {
+    width: 150px;
+    height: 25px;
+    padding-top: 8px;
+    margin-right: 40px; /* pridejau SubHeaderBottomWishList elementui(Danielius)*/
+    text-align: center;
+    background-color: #444c63;
+    color: white;
+    border-top: 1px solid #5a6687;
+    border-left: 1px solid #5a6687;
+    border-right: 2px solid #5a6687;
+    border-bottom: 2px solid #5a6687;
+    border-radius: 5px;
+    float: right;       /* pakeiciau iš float: left SubHeaderBottomWishList elementui(Danielius)*/
  }
 
 .buy_books_button_light {
     width: 150px;
     height: 25px;
     padding-top: 8px;
+    margin-right: 20px; /* pridejau SubHeaderBottomWishList elementui(Danielius)*/
     text-align: center;
     background-color: #6f7d95;
     color: white;
@@ -25,7 +47,7 @@
     border-right: 2px solid #95a7c1;
     border-bottom: 2px solid #95a7c1;
     border-radius: 5px;
-    float: left;
+    float: right; /* pakeiciau iš float: left SubHeaderBottomWishList elementui(Danielius)*/
 }
 
 .buy_books_button_dark_small {
