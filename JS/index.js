@@ -137,6 +137,9 @@ var books =[
     ),
 ];
 
+jaysonTestas = JSON.stringify(books);
+localStorage.setItem("books", jaysonTestas);
+
 //perduodi knyga, grazina diva tinklapiui browse books
 function getBookDiv(book){
     return "<div class=\"books_box\"><img src="+book.img+" alt=\"book\"><h3>"+book.title+"</h3><p>by "+book.author+"</p><span class=\"books_rating_static books_rating_"+book.rating*10+"\"></span></div>";

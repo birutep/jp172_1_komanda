@@ -5,7 +5,11 @@ import Content from './Content/Content';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 
+import knygos from '../src/data/books.json';
+
+
 class App extends Component {
+
   render() {
     return (
       <div className={pagrindinesKlases.App}>
@@ -13,7 +17,6 @@ class App extends Component {
         <Nav />
         <Content />
         <Footer />
-
       </div>
     );
   }
