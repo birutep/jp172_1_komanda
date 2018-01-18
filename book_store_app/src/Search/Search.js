@@ -7,7 +7,7 @@ const searchas = ( props ) => {
         <div className={searchKlase.backColor}>
         <form>
                             <input className={searchKlase.input} type="text" placeholder="Enter Keywords" name="keywoards" />
-                            <button className={searchKlase.search_container_button} type="submit"><i class="fa fa-search"></i></button>
+                            <button className={searchKlase.search_container_button} type="submit"><i className="fa fa-search"></i></button>
         </form>
         </div>
         

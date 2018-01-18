@@ -13,3 +13,10 @@ const Knopfs = ( props ) => {
 };
 
 export default Knopfs;
+
+
+// {/* <Knopf spausti="All books"></Knopf>
+//         <Knopf spausti="Most Recent"></Knopf>
+//         <Knopf spausti="Most Popular"></Knopf>
+//         <Knopf spausti="Free Books"></Knopf>
+//         <Search></Search> */}
