@@ -1,5 +1,4 @@
 import React from 'react';
-import starStyle from './Zvaigzdutes.css'
 
 
 const zvaigzdutes = ( props ) => {
