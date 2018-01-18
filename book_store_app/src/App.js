@@ -21,7 +21,7 @@ class App extends Component {
         <Header />
         <Nav />
         <Content />
-        <Footer /> */}
+        <Footer />
         {/* <Register /> */}
         {/* <Login />*/}
 
