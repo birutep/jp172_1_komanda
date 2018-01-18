@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import SubHeader from '../SubHeader/SubHeader';
 
 import books from '../data/books.json';
 import Book from '../DivaiKnygomsAtvaizduot/DivKnyga1/DivKnyga1';
 
 import Gridas from '../Grids/GridBrowseBooks/GridBrowseBooks';
+import SubheaderBottom from '../SubHeader/SubheaderBottom/SubheaderBottom';
+
 
 
 const createBook = (x) => <Book img={x.img} title={x.title} author={x.author} rating={x.rating}/>;
@@ -22,8 +24,9 @@ const newestBooks = lastest.map(createBook);
 const Browse = ( props ) => {
     return (
         <div>
-            <SubHeader />
-            <Gridas elementai={allBooks}/>
+            <SubHeader name ="Browse" />
+            <SubheaderBottom />
+            <Gridas elementai={freeBooks}/>
         </div>
     )
 };

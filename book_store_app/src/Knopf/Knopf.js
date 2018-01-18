@@ -4,7 +4,7 @@ import knopfKlase from './Knopf.css';
 
 const Knopfs = ( props ) => {
     return (
-        <div className={knopfKlase.knopf}>
+        <div className={knopfKlase.knopf} onClick={props.clickHandler}>
             {props.spausti}
         </div>
         
