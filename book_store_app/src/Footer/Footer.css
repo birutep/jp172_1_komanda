@@ -12,13 +12,17 @@
 }
 
 footer i {
-    color: #ffffff;
+    color: #ffffff;   
 }
 
-.footer_help {
+footer a {
+    height: 100%;
     width: 55px;
+    background-color: #1f2637;    
+}
+
+.footer_help i {
     padding-top: 15px;
-    background-color: #1f2637;
 }
 
 .footer_settings {

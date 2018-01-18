@@ -3,7 +3,8 @@ import SubHeader from '../SubHeader/SubHeader';
 
 import books from '../data/books.json';
 import Book from '../DivaiKnygomsAtvaizduot/DivKnyga1/DivKnyga1';
-import DivKnyga4 from '../DivaiKnygomsAtvaizduot/DivKnyga4/DivKnyga4';
+
+import Gridas from '../Grids/GridBrowseBooks/GridBrowseBooks';
 
 
 const createBook = (x) => <Book img={x.img} title={x.title} author={x.author} rating={x.rating}/>;
@@ -22,7 +23,7 @@ const Browse = ( props ) => {
     return (
         <div>
             <SubHeader />
-            {allBooks}
+            <Gridas elementai={allBooks}/>
         </div>
     )
 };
