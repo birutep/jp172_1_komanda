@@ -1,0 +1,8 @@
+.backColor {
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #eaeef2;
+}

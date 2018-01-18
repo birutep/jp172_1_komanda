@@ -1,7 +1,7 @@
 
 .book_filter {
     width: 100%;
-    height: 120px;
+    height: 90px;
     box-sizing: border-box;
     float: left;
     overflow: hidden;
@@ -13,7 +13,6 @@
     padding: 13px;
     color: #52617a;
     font-size: 17px;
-    /* border-bottom: 1px solid #d5dee8; */
 }
 
 .apatine{
