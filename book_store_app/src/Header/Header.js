@@ -12,9 +12,9 @@ const Header = ( props ) => {
             <p><i className="fa fa-book"></i>&ensp;Book Store</p>
             </div>
            
-            <Link to='/help'><Support_help pavadinimas={'Help Center'}/></Link>
-            <Link to='/support'><Support_help pavadinimas={'Our Support'}/></Link>
-            <Login/> 
+            <Link to='/help'><Support_help pavadinimas={'Help Center'} /></Link>
+            <Link to='/support'><Support_help pavadinimas={'Our Support'} /></Link>
+            <Login />
             </header>
         </div>
     )

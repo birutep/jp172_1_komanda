@@ -53,13 +53,13 @@
     float: left;
 }
 
-h3 {
+.buy_books_box h3 {
     padding-top: 13px;
     margin: 0;
     color: #444c63;
 }
 
-p {
+.buy_books_box p {
     padding-top: 7px;
     padding-bottom: 2px;
     margin: 0;
@@ -99,7 +99,7 @@ p {
 
 /*.......................TOTAL PRICE AREA...................*/
 
-#buy_books_total_price_area {
+/* #buy_books_total_price_area {
     padding: 0;
     margin: 0;
     margin-left: 710px;
@@ -109,7 +109,7 @@ p {
     border: none;
     padding: 4px 8px;
     font-size: 14px;
-}
+} */
 
 .buy_books_button_buy {
     padding: 0;
