@@ -9,6 +9,8 @@ import Register from './LoginRegister/Register';
 // import Login from './LoginRegister/Login';
 
 import knygos from '../src/data/books.json';
+import Search from './Search/Search';
+import SubHeader from './SubHeader/SubHeader';
 
 
 
@@ -18,15 +20,14 @@ class App extends Component {
   render() {
     return (
       <div className={pagrindinesKlases.App}>
-<<<<<<< HEAD
-=======
-        <Header />
+         
+    
         <Nav />
         <Content />
         <Footer />
         <Register />
         {/* <Login /> */}
->>>>>>> 75d6fcd1c02cce7373d74650ad129f7ce5607390
+
       </div>
     );
   }
