@@ -1,5 +1,4 @@
 .header_popup {
-    display: block;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -107,3 +106,11 @@ button:hover,
 .header_reg_content .header_modal_content {
     height: 450px;
 } 
+
+.login_popup_show {
+    display: block;
+}
+
+.login_popup_hide {
+    display: none;
+}
