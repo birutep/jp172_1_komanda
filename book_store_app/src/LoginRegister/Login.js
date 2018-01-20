@@ -6,13 +6,14 @@ class loginas extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            hidden: false
+            hidden: true
         }
     }
 
     closeHandler = () => {this.setState ({hidden: true});
+        console.log("labas, aš krabas");
         return this.state.hidden;
-    }
+    };
 
     render ( props ) {
         return (
@@ -22,7 +23,7 @@ class loginas extends Component {
                         <form className={cssKlases.header_modal_content}>
                             <span onClick={this.closeHandler} className={cssKlases.header_login_close} title="Close Login Form">&times;</span>
                             <div className={cssKlases.header_container}>
-                                <h3><i className="fa fa-book"></i> Book Store</h3>
+                                <h3><i className="fa fa-book" /> Book Store</h3>
                                 <div className={cssKlases.header_form_bordered}>
                                     <h2>Login</h2>
                                     <label><b>Username</b></label>

@@ -5,7 +5,7 @@ import SearchKlase from './SubHeaderBottomHelp.css';
 const subBottomHelp = ( props ) => { 
     return (
         <div className={SearchKlase.backColor}>
-           <Knopf spausti="Help Center"></Knopf>
+           <Knopf spausti="Help Center" />
         </div>
     )
 };

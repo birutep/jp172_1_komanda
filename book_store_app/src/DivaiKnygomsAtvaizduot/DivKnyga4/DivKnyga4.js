@@ -33,12 +33,3 @@ const knyga3 = ( props ) => {
 };
 
 export default knyga3;
-
-
-//norint paze App.js faile imetam virsuje
-//import Knyga from './DivaiKnygomsAtvaizduot/DivKnyga3/DivKnyga3';
-
-//o returne 
-
-// <Knyga img="IMG/books_book_01.jpg" author="Laima Valuze" name="Programavimas kitu kampu" description="cia bus ilgas ilgas description" price="25" />
-// <Knyga img="IMG/books_book_07.jpg" author="Daniel Rozov" name="Node js instaliavimas" description="cia bus ilgas ilgas description" price="0" /> 

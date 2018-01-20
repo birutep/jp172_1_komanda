@@ -2,21 +2,10 @@ import React from 'react';
 import knopfKlase from './Knopf.css';
 
 
-const Knopfs = ( props ) => {
-    return (
-        <div className={knopfKlase.knopf}>
-            {props.spausti}
-        </div>
-        
-        
-    )
-};
+const Knopfs = (props) => (
+    <div className={knopfKlase.knopf} onClick={props.onClick}>  
+        {props.spausti} 
+    </div>                          // onClick kviečia tėvo onClick
+);
 
 export default Knopfs;
-
-
-// {/* <Knopf spausti="All books"></Knopf>
-//         <Knopf spausti="Most Recent"></Knopf>
-//         <Knopf spausti="Most Popular"></Knopf>
-//         <Knopf spausti="Free Books"></Knopf>
-//         <Search></Search> */}

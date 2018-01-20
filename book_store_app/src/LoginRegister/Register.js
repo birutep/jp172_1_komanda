@@ -8,7 +8,7 @@ const loginas = ( props ) => {
                 <form className={cssKlases.header_modal_content}>
                     <span  className={cssKlases.header_login_close} title="Close Login Form">&times;</span>
                     <div className={cssKlases.header_container}>
-                        <h3><i className="fa fa-book"></i> Book Store</h3>
+                        <h3><i className="fa fa-book" /> Book Store</h3>
                         <div className={cssKlases.header_form_bordered}>
                         <h2>Register new account</h2>
                                     <label><b>Your name</b></label>

@@ -5,7 +5,7 @@ const sub = ( props ) => {
     return (
         <div className={headerioKlase.book_filter}>
            <p className={headerioKlase.book_filter_p} >{props.name}</p>
-           <div className={headerioKlase.apatine} ></div> 
+           <div className={headerioKlase.apatine} />
         </div>
     )
 };

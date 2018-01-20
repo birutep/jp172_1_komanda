@@ -1,4 +1,4 @@
-.knopf{
+.knopf {
     margin-left: 6px;
     margin-bottom: 18px;
     float: left;
@@ -10,7 +10,7 @@
     font-size: 14px;
 }
 
-.knopf:hover{
+.knopf:hover {
     background-color: #95a7c1;
     color: white;
     border-radius: 32px 32px 32px 32px;
