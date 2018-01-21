@@ -7,14 +7,14 @@
 select {
     width: 100%; /*CIA INPUT LAUKELIO PLOTIS*/
     height: 20px;
-    padding:3px;
+    padding: 3px;
     padding-left: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 .inputField p {
-    float:left;
+    float: left;
 }
 
 

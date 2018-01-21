@@ -8,7 +8,7 @@ const TextareaField = ( props ) => {
                <form>
                <p>{props.info}</p>
                <br/>
-               <textarea placeholder={props.placeholder}></textarea>
+               <textarea placeholder={props.placeholder} />
                </form>
         </div>
     )
