@@ -46,7 +46,7 @@ class Browse extends Component {
 
         return (
             <div>
-                <SubHeader />
+                <SubHeader name="Browse"/>
                 <SubheaderBottom />
                 <Gridas elementai={books} />
             </div>

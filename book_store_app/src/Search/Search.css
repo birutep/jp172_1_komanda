@@ -1,6 +1,6 @@
 .input[type=text] {
     clear: both;
-    margin-left: 400px;
+    margin-left: 280px;
     margin-top: -4px;
     padding: 6px 12px;
     width: 350px;
@@ -15,7 +15,7 @@
     margin-right: 16px;
     margin-top: -4px;
     position: relative;
-    left: 774px;
+    left: 650px;
     border-radius: 0px 16px 16px 0px;
     border: none;
     cursor: pointer;
