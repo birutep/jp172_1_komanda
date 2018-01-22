@@ -26,6 +26,11 @@ const reducer = (state = initialState, action) => {     // funcija kuri keičia 
                 ...state,
                 filter: state.filter = filterActions.FREE_BOOKS
             };
+        case filterActions.SEARCHED_BOOKS:
+            return {
+                ...state,
+                filter: state.filter = filterActions.SEARCHED_BOOKS
+            };
         default:
             return state;
     }
