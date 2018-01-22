@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
+=======
+import React, {Component} from 'react';
+>>>>>>> 996789eb4fdce4df470e3a1b22ae4458592f535e
 import SubHeader from '../SubHeader/SubHeader';
 
 import books from '../data/books.json';
@@ -6,6 +10,10 @@ import Book from '../DivaiKnygomsAtvaizduot/DivKnyga1/DivKnyga1';
 
 import Gridas from '../Grids/GridBrowseBooks/GridBrowseBooks';
 import SubheaderBottom from '../SubHeader/SubheaderBottom/SubheaderBottom';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 996789eb4fdce4df470e3a1b22ae4458592f535e
 
 import { connect } from 'react-redux';  // importas norint prijungti bendrą saugyklą prie Component
 
@@ -61,11 +69,22 @@ class Browse extends Component {
     };
 }
 
+<<<<<<< HEAD
 const mapStateToProps = state => {      // funkcija kuri perkopijuoja state iš bendros saugyklos į vietinį props
                                         // (galima prie "fltr: state.filter" pridėt daugiau kintamųjų, jeigu jų būtų reducer.js)
     return {
         fltr: state.filter
     };
+=======
+const Browse = ( props ) => {
+    return (
+        <div>
+            <SubHeader name ="Browse" />
+            <SubheaderBottom />
+            <Gridas elementai={freeBooks}/>
+        </div>
+    )
+>>>>>>> 996789eb4fdce4df470e3a1b22ae4458592f535e
 };
 
 export default connect(mapStateToProps) (Browse);   // prijungia funkcijas mapStateToProps prie komponento
