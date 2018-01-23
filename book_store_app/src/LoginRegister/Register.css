@@ -1,8 +1,4 @@
 .header_popup {
-<<<<<<< HEAD
-=======
-    /* display: block; */
->>>>>>> 996789eb4fdce4df470e3a1b22ae4458592f535e
     display: none;
     position: fixed;
     z-index: 1;
