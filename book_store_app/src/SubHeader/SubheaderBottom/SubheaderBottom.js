@@ -14,7 +14,7 @@ class subBottom extends Component {
                 <Knopf spausti="Most Recent" onClick={this.props.onMostRecent} />
                 <Knopf spausti="Most Popular" onClick={this.props.onMostPopular} />
                 <Knopf spausti="Free Books" onClick={this.props.onFreeBooks} />
-                <Search />
+                <Search onClick={this.props.onSearched} />
             </div>                          // onClick iškviečia tam tikrą dispatch
         );
     }
@@ -33,7 +33,8 @@ const mapDispatchToProps = dispatch => {
                                                                         // galima po "type: filterActions.ALL_BOOKS" po kablelio perduot reikšmių, jeigu reikia. Ir reducer.js atitinkamai apdoroti. Pvz išsaugot į masyvą kažką.
         onMostRecent: () => dispatch({type: filterActions.MOST_RECENT}),
         onMostPopular: () => dispatch({type: filterActions.MOST_POPULAR}),
-        onFreeBooks: () => dispatch({type: filterActions.FREE_BOOKS})
+        onFreeBooks: () => dispatch({type: filterActions.FREE_BOOKS}),
+        onSearched: () => dispatch({type: filterActions.SEARCHED_BOOKS}),
     }
 };
 
