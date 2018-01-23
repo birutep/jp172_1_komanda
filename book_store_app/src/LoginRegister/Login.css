@@ -67,9 +67,9 @@ h3 {
     font-size: 0.9em;
 }
 
-.header_reg{
+.header_reg {
     color: #2f364a;
-    font-size: 0.8em; 
+    font-size: 0.8em;
 }
 
 .header_container .header_remember,
@@ -102,10 +102,9 @@ button:hover,
     cursor: pointer;
 }
 
-
 .header_reg_content .header_modal_content {
     height: 450px;
-} 
+}
 
 .login_popup_show {
     display: block;

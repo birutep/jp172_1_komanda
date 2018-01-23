@@ -16,7 +16,7 @@ const knyga3 = ( props ) => {
                 <p>by {props.author}</p>
                 <p className={cssKlases.wishlist_box_book_summary}>{props.description}</p>
             </div>
-            <div classNamne={cssKlases.wishlist_box_book_price_action}>
+            <div className={cssKlases.wishlist_box_book_price_action}>
                 <div>
                     <p>&#8364; per book: <span>{props.price}</span></p>
                 </div>
