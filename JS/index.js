@@ -137,8 +137,12 @@ var books =[
     ),
 ];
 
-jaysonTestas = JSON.stringify(books);
-localStorage.setItem("books", jaysonTestas);
+localStorage.setItem("lastName":"Smith");
+document.getElementById("result").innerHTML = localStorage.getItem("lastName");
+
+
+// // jaysonTestas = JSON.stringify(books);
+// // localStorage.setItem("books", jaysonTestas);
 
 //perduodi knyga, grazina diva tinklapiui browse books
 function getBookDiv(book){

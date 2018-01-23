@@ -2,8 +2,11 @@
     color: #113063;
     width: 50%;
     padding: 7px;
+    padding-left: 50px;
+    padding-top: 15px;
     line-height: 0.5em;
     text-align: left;
     font-size: 1em;
     font-weight: bolder;
+    font-style: italic;
 }
