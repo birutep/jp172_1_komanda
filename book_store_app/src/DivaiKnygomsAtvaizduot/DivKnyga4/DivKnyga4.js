@@ -24,8 +24,8 @@ const knyga3 = ( props ) => {
             <div className={cssKlases.action}>
                 <div>
                     <p>Price: &#8364;<span>{props.price}</span></p>
-                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_light_small}/>
-                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_dark_small}/>
+                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_light_small} click={props.add}/>
+                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_dark_small} click={props.remove}/>
                 </div>
             </div>
 
