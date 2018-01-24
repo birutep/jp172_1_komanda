@@ -1,9 +1,8 @@
 import React from 'react';
 import cssKlases from './DivKnyga4.css';
+
 import Mygtukas from '../../Mygtukai/Mygtukas';
 import mygtukoKlases from '../../Mygtukai/Mygtukai.css';
-// import Mygtukas from './../DivKnyga3/Mygtukai/Mygtukas';
-// import mygtukoKlases from './../DivKnyga3/Mygtukai/Mygtukai.css';
 
 
 const knyga3 = ( props ) => {
@@ -25,8 +24,8 @@ const knyga3 = ( props ) => {
             <div className={cssKlases.action}>
                 <div>
                     <p>Price: &#8364;<span>{props.price}</span></p>
-                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_light}/>
-                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_dark}/>
+                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_light_small}/>
+                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_dark_small}/>
                 </div>
             </div>
 

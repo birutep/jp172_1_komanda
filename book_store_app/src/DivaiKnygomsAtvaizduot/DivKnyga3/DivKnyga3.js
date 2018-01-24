@@ -1,8 +1,6 @@
 import React from 'react';
 import cssKlases from './DivKnyga3.css';
 
-// import Mygtukas from './Mygtukai/Mygtukas';
-// import mygtukoKlases from './Mygtukai/Mygtukai.css';
 import Mygtukas from '../../Mygtukai/Mygtukas';
 import mygtukoKlases from '../../Mygtukai/Mygtukai.css';
 
@@ -12,18 +10,20 @@ const knyga3 = ( props ) => {
             <div className={cssKlases.wishlist_box_book_img}>
                 <img src={props.img} alt="book" />
             </div>
+
             <div className={cssKlases.wishlist_box_book_about}>
                 <h3>{props.name}</h3>
                 <p>by {props.author}</p>
                 <p className={cssKlases.wishlist_box_book_summary}>{props.description}</p>
             </div>
+
             <div className={cssKlases.wishlist_box_book_price_action}>
                 <div>
                     <p>&#8364; per book: <span>{props.price}</span></p>
                 </div>
                 <div>
-                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_dark_small}/>
-                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_light_small}/>
+                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_light_small}/>
+                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_dark_small}/>
                 </div>
             </div>
         </div>
