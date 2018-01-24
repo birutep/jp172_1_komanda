@@ -3,37 +3,41 @@
 .box {
     clear: both;
     padding: 15px;
-    text-align: left; 
+    height: 100%;
+    /* text-align: left;  */
 }
 
+/*BP: zemiau esancios 3 klases dalina vienos knygos aprasa i 3 dalis: 
+img, aprasymas ir ka su ja nuveikti*/
+
 .img {
-    width: 30%;
-    height: 100%;
+    width: 18%;
+    /* height: auto; */
     background-size: contain;
     border-radius: 6px;
     padding: 10px;
     float: left;
 }
 
-.box img {
-    width: 400px;
+.about_book {
+    width: 60%;
+    /* height: 580px; */
+    float: left;
 }
 
-.about_price_action {
-    width: 70%;
-    height: 580px;
-}
-
-.about {
-    height: 70%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.price_action {
+.action {
+    width: 15%;
+    float:left;
     color: #6f7d95;
     font-weight: 500;
     font-size: 0.9em;
+}
+
+/*BP: toliau esancios klases apraso atskiras virsuje esanciu 2 paskutiniu klasiu laukus*/
+.about {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .summary {
@@ -44,25 +48,26 @@
     font-size: 0.8em;
 }
 
-.box h3 {
+.about h3 {
     padding-top: 13px;
     margin: 0;
     color: #444c63;
+    font-size: 1.5em;
 }
 
-.box p {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.about p {
+    padding-top: 2px;
+    padding-bottom: 5px;
     margin: 0;
     color: #6f7d95;
 }
 
-.price_action p {
-    font-size: 2em;
+.action p {
     padding-bottom: 10px;
+    text-align: center;
 }
 
-.price_action div {
-    margin-right: 200px;
+.action div {
+    margin-right: 0px;
     margin-top: 10px;
-}
+} 
