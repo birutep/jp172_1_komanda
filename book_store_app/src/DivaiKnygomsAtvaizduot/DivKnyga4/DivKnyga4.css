@@ -3,7 +3,7 @@
 .box {
     clear: both;
     padding: 15px;
-    height: 100%;
+    max-height: 270px;
     /* text-align: left;  */
 }
 

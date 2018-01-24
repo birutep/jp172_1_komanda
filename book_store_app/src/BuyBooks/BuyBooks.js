@@ -23,7 +23,7 @@ const getTotalPrice = () => {
         let book = getBookById(bookChart[i].id);
         sum+= (book.price * bookChart[i].count);
     }
-    return sum;
+    return sum.toFixed(2);
 }
 const BuyBooks = ( props ) => {
     return (
