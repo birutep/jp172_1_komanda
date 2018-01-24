@@ -8,13 +8,15 @@ import Book from '../DivaiKnygomsAtvaizduot/DivKnyga2/DivKnyga2';
 import Gridas from '../Grids/GridBuyBooks/GridBuyBooks';
 
 const createBook = (x) => <Book img={x.img} author={x.author} name={x.krepselioTurinys} description={x.about} price={x.price} /> 
-const krepselioTurinys = bookChart.map( x => createBook(x));
 
+const notFreeBooks =bookChart.filter(item => item.price >0);        //jei nemokama knyga kam jha pirkti?
+const krepselioTurinys = notFreeBooks.map( x => createBook(x));     //sukuriam divukus
+const getTotalPrice = () => notFreeBooks.reduce(function (acc, obj) { return acc + obj.price; }, 0);    //paskaiciuojam krepselio visu knygu kaina
 const BuyBooks = ( props ) => {
     return (
         <div>
             <SubHeader name="Buy Books" />
-            <SubBot />  
+            <SubBot price={getTotalPrice()} />  
             <Gridas elementai={krepselioTurinys} />
         </div>
     )
