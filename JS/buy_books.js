@@ -116,7 +116,8 @@
  };
 
 
- //funkcija, kuri sumazina placeholder[0] laukeli vienetu paspaudus "-" ir atima knygos kaina is bendros sumos. Jeigu placeholder=0, nemazins. Veliau reikes patobulinti,
+ //funkcija, kuri sumazina placeholder[0] laukeli vienetu paspaudus "-" ir atima knygos kaina is bendros sumos. Jeigu placeholder=0,
+ // nemazins. Veliau reikes patobulinti,
  // kad laukelio reiksme kaeistusi priklausomai nuo to, ties kuria knyga paspaustas '-' mygtukas.
  //Gal but reiketu prideti checkbox ties kiekviena knyga.
  function buy_books_amount_down() {
