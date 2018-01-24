@@ -22,8 +22,8 @@ const knyga3 = ( props ) => {
                     <p>&#8364; per book: <span>{props.price}</span></p>
                 </div>
                 <div>
-                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_light_small}/>
-                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_dark_small}/>
+                    <Mygtukas pavadinimas="Add to wishlist" klase={mygtukoKlases.buy_books_button_light_small} click={props.toWhish}/>
+                    <Mygtukas pavadinimas="Add to buylist" klase={mygtukoKlases.buy_books_button_dark_small} click={props.toBuy}/>
                 </div>
             </div>
         </div>
