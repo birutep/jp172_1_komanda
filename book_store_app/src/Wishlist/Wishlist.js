@@ -1,6 +1,6 @@
 import React from 'react';
 import SubHeader from '../SubHeader/SubHeader';
-import books from '../data/books.json';             //kolkas viskas is to paties jasono
+import books from '../data/books_buybooks_forTesting_bp.json';             //kolkas viskas is to paties jasono
 import Book from '../DivaiKnygomsAtvaizduot/DivKnyga4/DivKnyga4';
 
 import Gridas from '../Grids/GridWhishlist/GridWhishlist';
