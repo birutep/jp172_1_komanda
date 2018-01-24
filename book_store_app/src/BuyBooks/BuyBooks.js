@@ -7,7 +7,7 @@ import Book from '../DivaiKnygomsAtvaizduot/DivKnyga2/DivKnyga2';
 
 import Gridas from '../Grids/GridBuyBooks/GridBuyBooks';
 
-const createBook = (x) => <Book img={x.img} author={x.author} name={x.krepselioTurinys} description={x.about} price={x.price} /> 
+const createBook = (x) => <Book img={x.img} author={x.author} name={x.title} description={x.about} price={x.price} /> 
 
 const notFreeBooks =bookChart.filter(item => item.price >0);        //jei nemokama knyga kam jha pirkti?
 const krepselioTurinys = notFreeBooks.map( x => createBook(x));     //sukuriam divukus
