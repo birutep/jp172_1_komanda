@@ -94,7 +94,7 @@
 
  //perduodi knyga, grazina diva tinklapiui buy books
  function getBookDiv(book) {
-     return "<div class=\"books_box\"><div class=\"buy_books_box_book_img\"><img src=" + book.img + "alt=\"book\"></div><div class=\"buy_books_box_book_about\"><h3>" + book.title + "</h3><p>by " + book.author + "<p class=\"buy_books_box_book_summary\">" + book.about + "</p></div> <div class=\"buy_books_box_book_amount\"><input class=\"buy_books_amount_button_change_amount\" type=\"button\" value=\"-\" onclick=\"buy_books_amount_down()\"><input type=\"text\" class=\"buy_books_amount_input\" placeholder=\"0\" /><input class=\"buy_books_amount_button_change_amount\" type=\"button\" value=\"+\" onclick=\"buy_books_amount_up()\"><img class=\"buy_books_box_book_amount_recyclebin\" src=\"../IMG/buy_books_recyclebin.jpg\" alt=\"recyclebin\" onclick=\"buy_books_amount_remove()\"></div></div>";
+     return "<div class=\"books_box\"><div class=\"buy_books_box_book_img\"><img src="+book.img+"alt=\"book\"></div><div class=\"buy_books_box_book_about\"><h3>" + book.title + "</h3><p>by " + book.author + "<p class=\"buy_books_box_book_summary\">" + book.about + "</p></div> <div class=\"buy_books_box_book_amount\"><input class=\"buy_books_amount_button_change_amount\" type=\"button\" value=\"-\" onclick=\"buy_books_amount_down()\"><input type=\"text\" class=\"buy_books_amount_input\" placeholder=\"0\" /><input class=\"buy_books_amount_button_change_amount\" type=\"button\" value=\"+\" onclick=\"buy_books_amount_up()\"><img class=\"buy_books_box_book_amount_recyclebin\" src=\"../IMG/buy_books_recyclebin.jpg\" alt=\"recyclebin\" onclick=\"buy_books_amount_remove()\"></div></div>";
  }
 
  //perbega per viska knygu masyva ir isveda visas knygas, buy books dalis
@@ -122,7 +122,7 @@
  //Gal but reiketu prideti checkbox ties kiekviena knyga.
  function buy_books_amount_down() {
      if (countOfPlaceholder > 0) {
-         sumOfAllBooks += books[0].price;
+         sumOfAllBooks -= books[0].price;
          alert(sumOfAllBooks);
          countOfPlaceholder--;
          placeholder[0].placeholder = countOfPlaceholder

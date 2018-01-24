@@ -6,7 +6,7 @@
 .inputField textarea {
     width: 100%; /*CIA INPUT LAUKELIO PLOTIS*/
     height: 80px;
-    padding:3px;
+    padding: 3px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
@@ -17,7 +17,7 @@
     padding: 3px;
 }
 
-.inputField p{
+.inputField p {
     float: left;
 }
 

@@ -11,18 +11,18 @@ const zvaigzdutes = ( props ) => {
 
      //spausdinam pusines
     for(let i=0; i<pilnos; i++){
-        x.push(<i key={key++} className="fa fa-star" aria-hidden="true"></i>);
+        x.push(<i key={key++} className="fa fa-star" aria-hidden="true" />);
     }
 
 
     //spausdinam pusines
     if(pilnos<iki){
-        x.push(<i key={key++} className="fa fa-star-half-o" aria-hidden="true"></i>);
+        x.push(<i key={key++} className="fa fa-star-half-o" aria-hidden="true" />);
         iki++;
     }
     //soausdinam tuscias
     for(let i=iki; i<5; i++){
-        x.push(<i key={key++} className="fa fa-star-o" aria-hidden="true"></i>);
+        x.push(<i key={key++} className="fa fa-star-o" aria-hidden="true" />);
     }
 
 

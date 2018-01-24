@@ -1,6 +1,5 @@
 
 .book_filter {
-    clear: both;
     width: 100%;
     height: 90px;
     background-color: #eaeef2;
@@ -13,10 +12,9 @@
     font-size: 17px;
 }
 
-.apatine{
-    margin:auto;        /*kad butu centre*/
-    clear: both;        /*be clearo ji nukeliauja i virsu, issiaiskinki kodel*/
-    border-bottom: 1px solid  #95a7c1;  /*linijos storis ir spalva*/
-    /* width: 96%;         kad butu 2proc tarpelis pradzioje ir pabaigoje */
+.apatine {
+    margin: auto; /*kad butu centre*/
+    clear: both; /*be clearo ji nukeliauja i virsu, issiaiskinki kodel*/
+    border-bottom: 1px solid #52617a; /*linijos storis ir spalva*/
+    /* width: 96%; kad butu 2proc tarpelis pradzioje ir pabaigoje */
 }
-

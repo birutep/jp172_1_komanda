@@ -8,13 +8,9 @@ import Footer from './Footer/Footer';
 import Register from './LoginRegister/Register';
 import Login from './LoginRegister/Login';
 
-
 import knygos from '../src/data/books.json';
 import Search from './Search/Search';
 import SubHeader from './SubHeader/SubHeader';
-
-
-
 
 class App extends Component {
 
@@ -25,17 +21,13 @@ class App extends Component {
         <Nav />
         <Content />
         <Footer />
-        {/* <Register /> */}
-        {/* <Login /> */}
-
-        {/* <Register /> */}
-        {/* <Login />*/}
         <Login />
         <Register />
       </div>
     );
   }
 }
+
 export default App;
 
 

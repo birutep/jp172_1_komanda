@@ -3,10 +3,11 @@
     overflow: hidden;
     padding-top: 10px;
     padding-bottom: 95px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 30% 30% 30%;
-    grid-gap: 4px;
+    grid-gap: 50px;
+    text-align: center;
 }
