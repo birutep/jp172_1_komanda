@@ -5,7 +5,7 @@ import searchKlase from './Search.css'
 const searchas = ( props ) => {
     return (
         <div className={searchKlase.backColor}>
-        <form>
+        <form className={searchKlase.searchWrapper}>
             <input className={searchKlase.input} type="text" placeholder="Enter Keywords" name="keywoards" />
             <div className={searchKlase.search_container_button} onClick={props.onClick}><i className="fa fa-search" /></div>
         </form>
