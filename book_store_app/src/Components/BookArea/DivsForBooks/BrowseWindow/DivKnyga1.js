@@ -1,6 +1,6 @@
 import React from 'react';
 import cssKlases from './DivKnyga1.css';
-import Zvaigzdutes from './Zvaigzdutes/Zvaigzdutes';
+import Zvaigzdutes from './StarRating/Zvaigzdutes';
 
 
 const knyga1 = ( props ) => {
