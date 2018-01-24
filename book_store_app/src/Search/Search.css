@@ -1,8 +1,7 @@
 .input[type=text] {
     clear: both;
-    margin-left: 280px;
-    margin-top: -4px;
-    padding: 6px 12px;
+    margin-left: 290px;
+    padding: 8px 6px;
     width: 350px;
     border-radius: 16px 0px 0px 16px;
     border: none;
@@ -11,11 +10,10 @@
 }
 
 .search_container_button {
-    padding: 6px 10px;
-    margin-right: 16px;
-    margin-top: -4px;
     position: relative;
-    left: 650px;
+    margin: 8px;
+    width: 30px;
+    left: 1030px;
     border-radius: 0px 16px 16px 0px;
     border: none;
     cursor: pointer;
