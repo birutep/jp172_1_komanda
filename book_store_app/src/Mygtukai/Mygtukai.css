@@ -29,9 +29,11 @@
 }
 
 .buy_books_button_dark_small {
-    width: 100px;
-    height: 15px;
-    padding-top: 2px;
+    width: 115px;
+    height: 22px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 9px;
     text-align: center;
     background-color: #444c63;
     color: white;
@@ -41,13 +43,15 @@
     border-bottom: 2px solid #5a6687;
     border-radius: 3px;
     float: left;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 .buy_books_button_light_small {
-    width: 100px;
-    height: 15px;
-    padding-top: 2px;
+    width: 115px;
+    height: 22px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 9px;
     text-align: center;
     background-color: #6f7d95;
     color: white;
@@ -57,7 +61,7 @@
     border-bottom: 2px solid #95a7c1;
     border-radius: 3px;
     float: left;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 
