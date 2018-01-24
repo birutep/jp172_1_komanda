@@ -5,9 +5,6 @@ const sub = ( props ) => {
     return (
         <div className={headerioKlase.book_filter}>
            <div><p className={headerioKlase.book_filter_p} >{props.name}</p></div>
-    
-           {/* <div className={headerioKlase.apatine} /> */}
-    
         </div>
     )
 };

@@ -28,11 +28,12 @@
     width: 10px;
     margin: auto;
     position: relative;
-    bottom: 13px;
+    bottom: 28px;
     }
 
 .backColor {
     background-color: #eaeef2;
+    height: 33px;
     padding: 20px;
 }
 
