@@ -1,9 +1,10 @@
 import React from 'react';
 import cssKlases from './DivKnyga3.css';
 
-import Mygtukas from './Mygtukai/Mygtukas';
-import mygtukoKlases from './Mygtukai/Mygtukai.css';
-
+// import Mygtukas from './Mygtukai/Mygtukas';
+// import mygtukoKlases from './Mygtukai/Mygtukai.css';
+import Mygtukas from '../../Mygtukai/Mygtukas';
+import mygtukoKlases from '../../Mygtukai/Mygtukai.css';
 
 const knyga3 = ( props ) => {
     return (

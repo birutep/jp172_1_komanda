@@ -1,7 +1,9 @@
 import React from 'react';
 import SearchKlase from './SubHeaderBottomBuyBooks.css';
-import Mygtukas from '../../DivaiKnygomsAtvaizduot/DivKnyga3/Mygtukai/Mygtukas';
-import mygtukoKlases from '../../DivaiKnygomsAtvaizduot/DivKnyga3/Mygtukai/Mygtukai.css';
+import Mygtukas from '../../Mygtukai/Mygtukas';
+import mygtukoKlases from '../../Mygtukai/Mygtukai.css';
+// import Mygtukas from '../../DivaiKnygomsAtvaizduot/DivKnyga3/Mygtukai/Mygtukas';
+// import mygtukoKlases from '../../DivaiKnygomsAtvaizduot/DivKnyga3/Mygtukai/Mygtukai.css';
 
 const subBottomHelp = ( props ) => { 
     return (
