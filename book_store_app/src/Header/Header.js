@@ -16,7 +16,7 @@ const Header = ( props ) => {
             <Link to='/support'><SupportHelp pavadinimas={'Our Support'}/></Link>
             {/* <Support_help pavadinimas={'Help Center'}/>
             <Support_help pavadinimas={'Our Support'}/> */}
-            <Login/> 
+            <Login /> 
             </header>
         </div>
     )

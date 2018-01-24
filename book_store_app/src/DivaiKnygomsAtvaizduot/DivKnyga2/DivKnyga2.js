@@ -15,7 +15,7 @@ const knyga2 = ( props ) => {
             </div>
             <div className={cssKlases.buy_books_box_book_amount}>
                 <input className={cssKlases.buy_books_amount_button_change_amount} type="button" value="-" onclick="buy_books_amount_down()" />
-                <input type="text" className={cssKlases.buy_books_amount_input} placeholder="0" />
+                <input type="text" className={cssKlases.buy_books_amount_input} placeholder="1" />
                 <input className={cssKlases.buy_books_amount_button_change_amount} type="button" value="+" onclick="buy_books_amount_up()" />
                 <img className={cssKlases.buy_books_box_book_amount_recyclebin} src="./IMG/buy_books_recyclebin.jpg" alt="recyclebin" onclick="buy_books_amount_remove()" />
             </div>

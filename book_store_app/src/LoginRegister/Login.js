@@ -10,8 +10,7 @@ class loginas extends Component {
         }
     }
 
-    closeHandler = () => {this.setState ({hidden: true});
-        console.log("labas, aš krabas");
+    switchDisplayHandler = () => {this.setState ({hidden: !this.state.hidden});
         return this.state.hidden;
     };
 
@@ -21,7 +20,7 @@ class loginas extends Component {
                 <div id="login_popup" className={cssKlases.header_popup}>
                     <div className={cssKlases.header_login_content}>
                         <form className={cssKlases.header_modal_content}>
-                            <span onClick={this.closeHandler} className={cssKlases.header_login_close} title="Close Login Form">&times;</span>
+                            <span onClick={this.switchDisplayHandler} className={cssKlases.header_login_close} title="Close Login Form">&times;</span>
                             <div className={cssKlases.header_container}>
                                 <h3><i className="fa fa-book" /> Book Store</h3>
                                 <div className={cssKlases.header_form_bordered}>

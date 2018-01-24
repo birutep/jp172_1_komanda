@@ -6,7 +6,7 @@ import mygtukoKlases from '../../DivaiKnygomsAtvaizduot/DivKnyga3/Mygtukai/Mygtu
 const subBottomHelp = ( props ) => { 
     return (
         <div className={SearchKlase.style}>
-           <p className={SearchKlase.text_style}>Total price of your cart: <span>500</span> &#8364;</p>
+           <p className={SearchKlase.text_style}>Total price of your cart: <span>{props.price}</span> &#8364;</p>
            <Mygtukas pavadinimas="Buy" klase={mygtukoKlases.buy_books_button_dark_exp}/>
         </div>
         
