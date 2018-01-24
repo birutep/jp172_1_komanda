@@ -1,8 +1,8 @@
 import React from 'react';
 import cssKlases from './DivKnyga4.css';
 
-import Mygtukas from './../DivKnyga3/Mygtukai/Mygtukas';
-import mygtukoKlases from './../DivKnyga3/Mygtukai/Mygtukai.css';
+import Mygtukas from '../../../../Mygtukai/Mygtukas';
+import mygtukoKlases from '../../../../Mygtukai/Mygtukai.css';
 
 
 const knyga3 = ( props ) => {
@@ -11,19 +11,21 @@ const knyga3 = ( props ) => {
 
             <div className={cssKlases.img}>
                 <img src={props.img} alt="book" />
-             </div>
+            </div>
 
-            <div className={cssKlases.about_price_action}>
+            <div className={cssKlases.about_book}>
                 <div className={cssKlases.about}>
                     <h3>{props.name}</h3>
                     <p>by {props.author}</p>
                     <p className={cssKlases.summary}>{props.description}</p>
                 </div>
+            </div>
 
-                <div className={cssKlases.price_action}>
+            <div className={cssKlases.action}>
+                <div>
                     <p>Price: &#8364;<span>{props.price}</span></p>
-                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_dark}/>
-                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_light}/>
+                    <Mygtukas pavadinimas="Remove from wishlist" klase={mygtukoKlases.buy_books_button_light_small} click={props.add}/>
+                    <Mygtukas pavadinimas="Add to buy list" klase={mygtukoKlases.buy_books_button_dark_small} click={props.remove}/>
                 </div>
             </div>
 

@@ -1,0 +1,73 @@
+/*.......BOOK      .........*/
+
+.box {
+    clear: both;
+    padding: 15px;
+    max-height: 270px;
+    /* text-align: left;  */
+}
+
+/*BP: zemiau esancios 3 klases dalina vienos knygos aprasa i 3 dalis: 
+img, aprasymas ir ka su ja nuveikti*/
+
+.img {
+    width: 18%;
+    /* height: auto; */
+    background-size: contain;
+    border-radius: 6px;
+    padding: 10px;
+    float: left;
+}
+
+.about_book {
+    width: 60%;
+    /* height: 580px; */
+    float: left;
+}
+
+.action {
+    width: 15%;
+    float:left;
+    color: #6f7d95;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+/*BP: toliau esancios klases apraso atskiras virsuje esanciu 2 paskutiniu klasiu laukus*/
+.about {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.summary {
+    padding-top: 7px;
+    padding-bottom: 2px;
+    margin: 0;
+    color: #6f7d95;
+    font-size: 0.8em;
+}
+
+.about h3 {
+    padding-top: 13px;
+    margin: 0;
+    color: #444c63;
+    font-size: 1.5em;
+}
+
+.about p {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin: 0;
+    color: #6f7d95;
+}
+
+.action p {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.action div {
+    margin-right: 0px;
+    margin-top: 10px;
+} 

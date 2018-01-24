@@ -12,3 +12,13 @@ einam i book_store_app direktorija, joje atsidarome terminala,
  del judejimo per direktorijas linux aplinkoje kreipkites tomas.tribusauskas@gmail.com
 
 pasileidziam su komanda npm start atsidarys narsykle http://localhost:3000/ kur ir bus atvaizduotas musu tinklapis su react
+
+------------------Dar papildomi installai, kuriuos darëmës po to-------------------------------------------
+Turëtø bût galimybë tiesiog npm install paraðyti ir viskà supûs, ko reikia.
+O jei nori atskirai, tai tada dar :
+
+npm install --save react-router-dom
+
+npm install --save redux
+npm install --save react-redux
+ir tada jau galima npm start

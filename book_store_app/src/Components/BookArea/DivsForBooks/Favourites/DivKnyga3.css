@@ -5,7 +5,6 @@
     grid-template-columns: 100%;
     grid-auto-rows: 360px;
     grid-gap: 15px;
-
     font-size: 14px;
 }
 
@@ -13,8 +12,6 @@
     clear: both;
     padding: 15px;
 }
-
-
 
 .wishlist_box_book_about {
     height: 100%;
@@ -32,7 +29,7 @@
     font-weight: 500;
     font-size: 0.9em;
     text-align: center;
-    line-height: 5em;
+    line-height: 1em;
 }
 
 .wishlist_box_book_summary {
@@ -59,6 +56,7 @@
     padding-top: 13px;
     margin: 0;
     color: #444c63;
+    font-size: 1.5em;
 }
 
 .wishlist_box p {

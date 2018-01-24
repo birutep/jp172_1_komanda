@@ -1,12 +1,20 @@
 import React from 'react';
 import SubHeader from '../SubHeader/SubHeader';
-import books from '../data/books.json';             //kolkas viskas is to paties jasono
-import Book from '../DivaiKnygomsAtvaizduot/DivKnyga4/DivKnyga4';
+import books from '../data/books.json';   
+import whisBooks from '../data/whishlist.json'        
+import Book from '../Components/BookArea/DivsForBooks/Wishlist/DivKnyga4';
 
-import Gridas from '../Grids/GridWhishlist/GridWhishlist';
+import Gridas from '../Components/BookArea/GridContainers/Wishlist/GridWhishlist';
 import SubheaderBottom from '../SubHeader/SubHeaderBottomWishList/SubHeaderBottomWishList';
 
-const createBook = (x) => <Book img={x.img} author={x.author} name={x.title} description={x.about} price={x.price} />;
+const pridedam = () => {
+    console.log("turiu pridet knyga i whishlista bet nezinau kuria");
+}
+const atimam = () => {
+    console.log("turiu pridet knyga i buylista bet nezinau kuria");
+}
+
+const createBook = (x) => <Book key={x.id} img={x.img} author={x.author} name={x.title} description={x.about} price={x.price} add={pridedam} remove={atimam} />;
 const whishlist = books.map(createBook);
 
 const Wishlist = ( props ) => {
