@@ -2,9 +2,9 @@ import React from 'react';
 import SubHeader from '../SubHeader/SubHeader';
 import books from '../data/books.json';   
 import favBooks from '../data/favorites.json';            
-import Book from '../DivaiKnygomsAtvaizduot/DivKnyga3/DivKnyga3';
+import Book from '../Components/BookArea/DivsForBooks/Favourites/DivKnyga3';
 
-import Gridas from '../Grids/GridBuyBooks/GridBuyBooks';
+import Gridas from '../Components/BookArea/GridContainers/BuyBooks/GridBuyBooks';
 import SubheaderBottom from '../SubHeader/SubheaderBottom/SubheaderBottom';
 
 

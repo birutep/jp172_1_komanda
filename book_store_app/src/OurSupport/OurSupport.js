@@ -5,7 +5,7 @@ import SupportContacts from '../SupportContacts/SupportContacts';
 const OurSupport = ( props ) => {
     return (
         <div>
-            <SubHeader />
+            <SubHeader name="Contact Us"/>
             <SupportContacts />
         </div>
     )
