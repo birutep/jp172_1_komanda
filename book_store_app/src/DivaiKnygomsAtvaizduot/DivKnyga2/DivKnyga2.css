@@ -1,6 +1,7 @@
 .buy_books_box {
     clear: both;
     padding: 15px;
+    max-height: 330px;
 }
 
 
