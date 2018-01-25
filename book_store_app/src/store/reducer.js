@@ -1,7 +1,9 @@
 import * as filterActions from './filterActions';   // čia kaip Java enum. išvardini, kad nepadarytum rašymo klaidų jei pvz naudotum String
 
 const initialState = {
-    filter: filterActions.ALL_BOOKS                 // pradinis state
+    filter: filterActions.ALL_BOOKS,                 // pradinis state
+    register: false,
+    login: false
 };
 
 const reducer = (state = initialState, action) => {     // funcija kuri keičia state (tiksliau nukopijuoja ir tada pakeičia)
@@ -30,6 +32,32 @@ const reducer = (state = initialState, action) => {     // funcija kuri keičia 
             return {
                 ...state,
                 filter: state.filter = filterActions.SEARCHED_BOOKS
+            };
+        case filterActions.OPEN_LOGIN:
+            console.log("atidaryt login");
+            return {
+                ...state,
+                login: state.login = true,
+                register: state.register = false
+            };
+        case filterActions.CLOSE_LOGIN:
+            console.log("uzdaryt login");
+            return {
+                ...state,
+                login: state.login = false
+            };
+        case filterActions.OPEN_REGISTER:
+            console.log("atidaryt register");
+            return {
+                ...state,
+                login: state.login = false,
+                register: state.register = true
+            };
+        case filterActions.CLOSE_REGISTER:
+            console.log("uzdaryt register");
+            return {
+                ...state,
+                register: state.register = false
             };
         default:
             return state;
