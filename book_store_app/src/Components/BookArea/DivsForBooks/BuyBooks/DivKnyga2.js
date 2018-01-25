@@ -11,7 +11,6 @@ const knyga2 = ( props ) => {
             <div className={cssKlases.buy_books_box_book_about}>
                 <h3>{props.name}</h3>
                 <p>by {props.author}</p>
-                <p>by {props.name}</p>
                 <p className={cssKlases.buy_books_box_book_summary}>{props.description}</p>
             </div>
             <div className={cssKlases.buy_books_box_book_amount}>

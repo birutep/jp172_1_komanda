@@ -2,9 +2,9 @@ import React from 'react';
 import SubHeader from '../SubHeader/SubHeader';
 import books from '../data/books.json';   
 import whisBooks from '../data/whishlist.json'        
-import Book from '../DivaiKnygomsAtvaizduot/DivKnyga4/DivKnyga4';
+import Book from '../Components/BookArea/DivsForBooks/Wishlist/DivKnyga4';
 
-import Gridas from '../Grids/GridWhishlist/GridWhishlist';
+import Gridas from '../Components/BookArea/GridContainers/Wishlist/GridWhishlist';
 import SubheaderBottom from '../SubHeader/SubHeaderBottomWishList/SubHeaderBottomWishList';
 
 const pridedam = () => {

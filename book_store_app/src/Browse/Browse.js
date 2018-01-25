@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import SubHeader from '../SubHeader/SubHeader';
 
 import books from '../data/books.json';
-import Book from '../DivaiKnygomsAtvaizduot/DivKnyga1/DivKnyga1';
+import Book from '../Components/BookArea/DivsForBooks/BrowseWindow/DivKnyga1';
 
-import Gridas from '../Grids/GridBrowseBooks/GridBrowseBooks';
+import Gridas from '../Components/BookArea/GridContainers/BrowseWindow/GridBrowseBooks';
 import SubheaderBottom from '../SubHeader/SubheaderBottom/SubheaderBottom';
 
 import { connect } from 'react-redux';  // importas norint prijungti bendrą saugyklą prie Component
