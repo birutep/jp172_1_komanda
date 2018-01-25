@@ -1,26 +1,20 @@
 import React, { Component } from 'react';
 import cssKlases from './Login.css';
+import cssDisplay from './LoginRegister.css'
+
+import { connect } from 'react-redux';
+import * as filterActions from '../store/filterActions';
 
 class loginas extends Component {
 
-    constructor (props) {
-        super(props);
-        this.state = {
-            hidden: true
-        }
-    }
+    render () {
 
-    switchDisplayHandler = () => {this.setState ({hidden: !this.state.hidden});
-        return this.state.hidden;
-    };
-
-    render ( props ) {
         return (
-            <div className={this.state.hidden ? cssKlases.login_popup_hide : cssKlases.login_popup_show}>
+            <div className={this.props.log ? cssDisplay.popup_show : cssDisplay.popup_hide}>
                 <div id="login_popup" className={cssKlases.header_popup}>
                     <div className={cssKlases.header_login_content}>
                         <form className={cssKlases.header_modal_content}>
-                            <span onClick={this.switchDisplayHandler} className={cssKlases.header_login_close} title="Close Login Form">&times;</span>
+                            <span onClick={this.props.onCloseLogin} className={cssKlases.header_login_close} title="Close Login Form">&times;</span>
                             <div className={cssKlases.header_container}>
                                 <h3><i className="fa fa-book" /> Book Store</h3>
                                 <div className={cssKlases.header_form_bordered}>
@@ -32,7 +26,7 @@ class loginas extends Component {
                                     <button className={cssKlases.header_submit} type="submit">Login</button>
                                     <label><input className={cssKlases.header_remember} type="checkbox"  />Remember me</label><br />
                                     <hr />
-                                    <p className={cssKlases.header_reg}>Register new account.</p>
+                                    <p onClick={this.props.onOpenRegister} className={cssKlases.header_reg}>Register new account.</p>
                                 </div>
                             </div>
                         </form>
@@ -43,4 +37,20 @@ class loginas extends Component {
     }
 }
 
-export default loginas;
+const mapStateToProps = state => {
+    return {
+        log: state.login,
+        reg: state.register
+    };
+};
+
+const mapDispatchToProps = dispatch => {        
+    return {
+        onOpenLogin: () => dispatch({type: filterActions.OPEN_LOGIN}),
+        onCloseLogin: () => dispatch({type: filterActions.CLOSE_LOGIN}),
+        onOpenRegister: () => dispatch({type: filterActions.OPEN_REGISTER}),
+        onCloseRegister: () => dispatch({type: filterActions.CLOSE_REGISTER})
+    }
+};
+
+export default connect(mapStateToProps, mapDispatchToProps) (loginas);
