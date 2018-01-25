@@ -22,3 +22,7 @@ npm install --save react-router-dom
 npm install --save redux
 npm install --save react-redux
 ir tada jau galima npm start
+
+build instalass ir paleidimas
+npm install -g serve
+serve -s build
